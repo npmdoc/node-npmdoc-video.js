@@ -1,0 +1,4531 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="http://videojs.com"
+
+    >video.js (v5.19.0)</a>
+</h1>
+<h4>An HTML5 and Flash video player with a common API and skin for both.</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js">module video.js</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.</span>TOUCH_ENABLED</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.AudioTrack">
+            function <span class="apidocSignatureSpan">video.js.</span>AudioTrack
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.EventTarget">
+            function <span class="apidocSignatureSpan">video.js.</span>EventTarget
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.TextTrack">
+            function <span class="apidocSignatureSpan">video.js.</span>TextTrack
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.VideoTrack">
+            function <span class="apidocSignatureSpan">video.js.</span>VideoTrack
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.addClass">
+            function <span class="apidocSignatureSpan">video.js.</span>addClass
+            <span class="apidocSignatureSpan">(element, classToAdd)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.addLanguage">
+            function <span class="apidocSignatureSpan">video.js.</span>addLanguage
+            <span class="apidocSignatureSpan">(code, data)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.appendContent">
+            function <span class="apidocSignatureSpan">video.js.</span>appendContent
+            <span class="apidocSignatureSpan">(el, content)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.bind">
+            function <span class="apidocSignatureSpan">video.js.</span>bind
+            <span class="apidocSignatureSpan">(context, fn, uid)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.computedStyle">
+            function <span class="apidocSignatureSpan">video.js.</span>computedStyle
+            <span class="apidocSignatureSpan">(el, prop)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.createEl">
+            function <span class="apidocSignatureSpan">video.js.</span>createEl
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.createTimeRange">
+            function <span class="apidocSignatureSpan">video.js.</span>createTimeRange
+            <span class="apidocSignatureSpan">(start, end)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.createTimeRanges">
+            function <span class="apidocSignatureSpan">video.js.</span>createTimeRanges
+            <span class="apidocSignatureSpan">(start, end)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.emptyEl">
+            function <span class="apidocSignatureSpan">video.js.</span>emptyEl
+            <span class="apidocSignatureSpan">(el)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.extend">
+            function <span class="apidocSignatureSpan">video.js.</span>extend
+            <span class="apidocSignatureSpan">(superClass)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.formatTime">
+            function <span class="apidocSignatureSpan">video.js.</span>formatTime
+            <span class="apidocSignatureSpan">(seconds)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.getAttributes">
+            function <span class="apidocSignatureSpan">video.js.</span>getAttributes
+            <span class="apidocSignatureSpan">(tag)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.getComponent">
+            function <span class="apidocSignatureSpan">video.js.</span>getComponent
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.getPlayers">
+            function <span class="apidocSignatureSpan">video.js.</span>getPlayers
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.getTech">
+            function <span class="apidocSignatureSpan">video.js.</span>getTech
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.hasClass">
+            function <span class="apidocSignatureSpan">video.js.</span>hasClass
+            <span class="apidocSignatureSpan">(element, classToCheck)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.hook">
+            function <span class="apidocSignatureSpan">video.js.</span>hook
+            <span class="apidocSignatureSpan">(type, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.hooks">
+            function <span class="apidocSignatureSpan">video.js.</span>hooks
+            <span class="apidocSignatureSpan">(type, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.insertContent">
+            function <span class="apidocSignatureSpan">video.js.</span>insertContent
+            <span class="apidocSignatureSpan">(el, content)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.isCrossOrigin">
+            function <span class="apidocSignatureSpan">video.js.</span>isCrossOrigin
+            <span class="apidocSignatureSpan">(url)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.isEl">
+            function <span class="apidocSignatureSpan">video.js.</span>isEl
+            <span class="apidocSignatureSpan">(value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.isTextNode">
+            function <span class="apidocSignatureSpan">video.js.</span>isTextNode
+            <span class="apidocSignatureSpan">(value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.js.EventTarget">
+            function <span class="apidocSignatureSpan">video.js.</span>js.EventTarget
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.js.TextTrack">
+            function <span class="apidocSignatureSpan">video.js.</span>js.TextTrack
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.js.log">
+            function <span class="apidocSignatureSpan">video.js.</span>js.log
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.js.xhr">
+            function <span class="apidocSignatureSpan">video.js.</span>js.xhr
+            <span class="apidocSignatureSpan">(uri, options, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.log">
+            function <span class="apidocSignatureSpan">video.js.</span>log
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.mergeOptions">
+            function <span class="apidocSignatureSpan">video.js.</span>mergeOptions
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.off">
+            function <span class="apidocSignatureSpan">video.js.</span>off
+            <span class="apidocSignatureSpan">(elem, type, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.on">
+            function <span class="apidocSignatureSpan">video.js.</span>on
+            <span class="apidocSignatureSpan">(elem, type, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.one">
+            function <span class="apidocSignatureSpan">video.js.</span>one
+            <span class="apidocSignatureSpan">(elem, type, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.parseUrl">
+            function <span class="apidocSignatureSpan">video.js.</span>parseUrl
+            <span class="apidocSignatureSpan">(url)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.plugin">
+            function <span class="apidocSignatureSpan">video.js.</span>plugin
+            <span class="apidocSignatureSpan">(name, init)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.registerComponent">
+            function <span class="apidocSignatureSpan">video.js.</span>registerComponent
+            <span class="apidocSignatureSpan">(name, comp)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.registerTech">
+            function <span class="apidocSignatureSpan">video.js.</span>registerTech
+            <span class="apidocSignatureSpan">(name, tech)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.removeClass">
+            function <span class="apidocSignatureSpan">video.js.</span>removeClass
+            <span class="apidocSignatureSpan">(element, classToRemove)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.removeHook">
+            function <span class="apidocSignatureSpan">video.js.</span>removeHook
+            <span class="apidocSignatureSpan">(type, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.setAttributes">
+            function <span class="apidocSignatureSpan">video.js.</span>setAttributes
+            <span class="apidocSignatureSpan">(el, attributes)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.toggleClass">
+            function <span class="apidocSignatureSpan">video.js.</span>toggleClass
+            <span class="apidocSignatureSpan">(element, classToToggle, predicate)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.trigger">
+            function <span class="apidocSignatureSpan">video.js.</span>trigger
+            <span class="apidocSignatureSpan">(elem, event, hash)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.xhr">
+            function <span class="apidocSignatureSpan">video.js.</span>xhr
+            <span class="apidocSignatureSpan">(uri, options, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>browser</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>hooks_</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.EventTarget.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.TextTrack.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.big_play_button</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.button</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.clickable_component</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.close_button</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.component</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.error_display</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.event_target</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.extend</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.loading_spinner</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.media_error</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.modal_dialog</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.player</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.plugins</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.poster_image</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>js.setup</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>options</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.</span>players</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">video.js.</span>VERSION</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.EventTarget">module video.js.EventTarget</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.EventTarget.EventTarget">
+            function <span class="apidocSignatureSpan">video.js.</span>EventTarget
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.EventTarget.prototype">module video.js.EventTarget.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.EventTarget.prototype.addEventListener">
+            function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>addEventListener
+            <span class="apidocSignatureSpan">(type, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.EventTarget.prototype.dispatchEvent">
+            function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>dispatchEvent
+            <span class="apidocSignatureSpan">(event)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.EventTarget.prototype.off">
+            function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>off
+            <span class="apidocSignatureSpan">(type, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.EventTarget.prototype.on">
+            function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>on
+            <span class="apidocSignatureSpan">(type, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.EventTarget.prototype.one">
+            function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>one
+            <span class="apidocSignatureSpan">(type, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.EventTarget.prototype.removeEventListener">
+            function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>removeEventListener
+            <span class="apidocSignatureSpan">(type, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.EventTarget.prototype.trigger">
+            function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>trigger
+            <span class="apidocSignatureSpan">(event)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>allowedEvents_</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.TextTrack">module video.js.TextTrack</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.TextTrack.TextTrack">
+            function <span class="apidocSignatureSpan">video.js.</span>TextTrack
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.TextTrack.prototype">module video.js.TextTrack.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.TextTrack.prototype.addCue">
+            function <span class="apidocSignatureSpan">video.js.TextTrack.prototype.</span>addCue
+            <span class="apidocSignatureSpan">(originalCue)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.TextTrack.prototype.removeCue">
+            function <span class="apidocSignatureSpan">video.js.TextTrack.prototype.</span>removeCue
+            <span class="apidocSignatureSpan">(_removeCue)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.TextTrack.prototype.</span>allowedEvents_</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.big_play_button">module video.js.big_play_button</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.big_play_button.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.big_play_button.default">
+            function <span class="apidocSignatureSpan">video.js.big_play_button.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.button">module video.js.button</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.button.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.button.default">
+            function <span class="apidocSignatureSpan">video.js.button.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.clickable_component">module video.js.clickable_component</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.clickable_component.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.clickable_component.default">
+            function <span class="apidocSignatureSpan">video.js.clickable_component.</span>default
+            <span class="apidocSignatureSpan">(player, options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.close_button">module video.js.close_button</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.close_button.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.close_button.default">
+            function <span class="apidocSignatureSpan">video.js.close_button.</span>default
+            <span class="apidocSignatureSpan">(player, options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.component">module video.js.component</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.component.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.component.default">
+            function <span class="apidocSignatureSpan">video.js.component.</span>default
+            <span class="apidocSignatureSpan">(player, options, ready)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.error_display">module video.js.error_display</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.error_display.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.error_display.default">
+            function <span class="apidocSignatureSpan">video.js.error_display.</span>default
+            <span class="apidocSignatureSpan">(player, options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.event_target">module video.js.event_target</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.event_target.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.event_target.default">
+            function <span class="apidocSignatureSpan">video.js.event_target.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.extend">module video.js.extend</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.extend.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.extend.default">
+            function <span class="apidocSignatureSpan">video.js.extend.</span>default
+            <span class="apidocSignatureSpan">(superClass)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.loading_spinner">module video.js.loading_spinner</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.loading_spinner.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.loading_spinner.default">
+            function <span class="apidocSignatureSpan">video.js.loading_spinner.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.log">module video.js.log</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.log.log">
+            function <span class="apidocSignatureSpan">video.js.</span>log
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.log.error">
+            function <span class="apidocSignatureSpan">video.js.log.</span>error
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.log.warn">
+            function <span class="apidocSignatureSpan">video.js.log.</span>warn
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">video.js.log.</span>history</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.media_error">module video.js.media_error</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.media_error.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.media_error.default">
+            function <span class="apidocSignatureSpan">video.js.media_error.</span>default
+            <span class="apidocSignatureSpan">(value)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.modal_dialog">module video.js.modal_dialog</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.modal_dialog.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.modal_dialog.default">
+            function <span class="apidocSignatureSpan">video.js.modal_dialog.</span>default
+            <span class="apidocSignatureSpan">(player, options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.player">module video.js.player</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.player.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.player.default">
+            function <span class="apidocSignatureSpan">video.js.player.</span>default
+            <span class="apidocSignatureSpan">(tag, options, ready)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.plugins">module video.js.plugins</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.plugins.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.plugins.default">
+            function <span class="apidocSignatureSpan">video.js.plugins.</span>default
+            <span class="apidocSignatureSpan">(name, init)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.poster_image">module video.js.poster_image</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.poster_image.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.poster_image.default">
+            function <span class="apidocSignatureSpan">video.js.poster_image.</span>default
+            <span class="apidocSignatureSpan">(player, options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.setup">module video.js.setup</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">video.js.setup.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.setup.autoSetup">
+            function <span class="apidocSignatureSpan">video.js.setup.</span>autoSetup
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.setup.autoSetupTimeout">
+            function <span class="apidocSignatureSpan">video.js.setup.</span>autoSetupTimeout
+            <span class="apidocSignatureSpan">(wait, vjs)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.setup.hasLoaded">
+            function <span class="apidocSignatureSpan">video.js.setup.</span>hasLoaded
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.video.js.xhr">module video.js.xhr</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.xhr.xhr">
+            function <span class="apidocSignatureSpan">video.js.</span>xhr
+            <span class="apidocSignatureSpan">(uri, options, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.xhr.XMLHttpRequest">
+            function <span class="apidocSignatureSpan">video.js.xhr.</span>XMLHttpRequest
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.xhr.del">
+            function <span class="apidocSignatureSpan">video.js.xhr.</span>del
+            <span class="apidocSignatureSpan">(uri, options, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.xhr.get">
+            function <span class="apidocSignatureSpan">video.js.xhr.</span>get
+            <span class="apidocSignatureSpan">(uri, options, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.xhr.head">
+            function <span class="apidocSignatureSpan">video.js.xhr.</span>head
+            <span class="apidocSignatureSpan">(uri, options, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.xhr.patch">
+            function <span class="apidocSignatureSpan">video.js.xhr.</span>patch
+            <span class="apidocSignatureSpan">(uri, options, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.xhr.post">
+            function <span class="apidocSignatureSpan">video.js.xhr.</span>post
+            <span class="apidocSignatureSpan">(uri, options, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.video.js.xhr.put">
+            function <span class="apidocSignatureSpan">video.js.xhr.</span>put
+            <span class="apidocSignatureSpan">(uri, options, callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js" id="apidoc.module.video.js">module video.js</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.AudioTrack" id="apidoc.element.video.js.AudioTrack">
+        function <span class="apidocSignatureSpan">video.js.</span>AudioTrack
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function AudioTrack() {
+  var _this, _ret;
+
+  var options = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : {};
+
+  _classCallCheck(this, AudioTrack);
+
+  var settings = (0, _mergeOptions2[&#x27;default&#x27;])(options, {
+    kind: _trackEnums.AudioTrackKind[options.kind] || &#x27;&#x27;
+  });
+  // on IE8 this will be a document element
+  // for every other browser this will be a normal object
+  var track = (_this = _possibleConstructorReturn(this, _Track.call(this, settings)), _this);
+  var enabled = false;
+
+  if (browser.IS_IE8) {
+    for (var prop in AudioTrack.prototype) {
+      if (prop !== &#x27;constructor&#x27;) {
+        track[prop] = AudioTrack.prototype[prop];
+      }
+    }
+  }
+<span class="apidocCodeCommentSpan">  /**
+   * @member {boolean} enabled
+   *         If this `AudioTrack` is enabled or not. When setting this will
+   *         fire {@link AudioTrack#enabledchange} if the state of enabled is changed.
+   *
+   * @fires VideoTrack#selectedchange
+   */
+</span>  Object.defineProperty(track, &#x27;enabled&#x27;, {
+    get: function get() {
+      return enabled;
+    },
+    set: function set(newEnabled) {
+      // an invalid or unchanged value
+      if (typeof newEnabled !== &#x27;boolean&#x27; || newEnabled === enabled) {
+        return;
+      }
+      enabled = newEnabled;
+
+      /**
+       * An event that fires when enabled changes on this track. This allows
+       * the AudioTrackList that holds this track to act accordingly.
+       *
+       * &#x3e; Note: This is not part of the spec! Native tracks will do
+       *         this internally without an event.
+       *
+       * @event AudioTrack#enabledchange
+       * @type {EventTarget~Event}
+       */
+      this.trigger(&#x27;enabledchange&#x27;);
+    }
+  });
+
+  // if the user sets this track to selected then
+  // set selected to that true value otherwise
+  // we keep it false
+  if (settings.enabled) {
+    track.enabled = settings.enabled;
+  }
+  track.loaded_ = true;
+
+  return _ret = track, _possibleConstructorReturn(_this, _ret);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.EventTarget" id="apidoc.element.video.js.EventTarget">
+        function <span class="apidocSignatureSpan">video.js.</span>EventTarget
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function EventTarget() {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.TextTrack" id="apidoc.element.video.js.TextTrack">
+        function <span class="apidocSignatureSpan">video.js.</span>TextTrack
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TextTrack() {
+  var _this, _ret;
+
+  var options = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : {};
+
+  _classCallCheck(this, TextTrack);
+
+  if (!options.tech) {
+    throw new Error(&#x27;A tech was not provided.&#x27;);
+  }
+
+  var settings = (0, _mergeOptions2[&#x27;default&#x27;])(options, {
+    kind: _trackEnums.TextTrackKind[options.kind] || &#x27;subtitles&#x27;,
+    language: options.language || options.srclang || &#x27;&#x27;
+  });
+  var mode = _trackEnums.TextTrackMode[settings.mode] || &#x27;disabled&#x27;;
+  var default_ = settings[&#x27;default&#x27;];
+
+  if (settings.kind === &#x27;metadata&#x27; || settings.kind === &#x27;chapters&#x27;) {
+    mode = &#x27;hidden&#x27;;
+  }
+  // on IE8 this will be a document element
+  // for every other browser this will be a normal object
+  var tt = (_this = _possibleConstructorReturn(this, _Track.call(this, settings)), _this);
+
+  tt.tech_ = settings.tech;
+
+  if (browser.IS_IE8) {
+    for (var prop in TextTrack.prototype) {
+      if (prop !== &#x27;constructor&#x27;) {
+        tt[prop] = TextTrack.prototype[prop];
+      }
+    }
+  }
+
+  tt.cues_ = [];
+  tt.activeCues_ = [];
+
+  var cues = new _textTrackCueList2[&#x27;default&#x27;](tt.cues_);
+  var activeCues = new _textTrackCueList2[&#x27;default&#x27;](tt.activeCues_);
+  var changed = false;
+  var timeupdateHandler = Fn.bind(tt, function () {
+
+    // Accessing this.activeCues for the side-effects of updating itself
+    // due to it&#x27;s nature as a getter function. Do not remove or cues will
+    // stop updating!
+<span class="apidocCodeCommentSpan">    /* eslint-disable no-unused-expressions */
+</span>    this.activeCues;
+    /* eslint-enable no-unused-expressions */
+    if (changed) {
+      this.trigger(&#x27;cuechange&#x27;);
+      changed = false;
+    }
+  });
+
+  if (mode !== &#x27;disabled&#x27;) {
+    tt.tech_.ready(function () {
+      tt.tech_.on(&#x27;timeupdate&#x27;, timeupdateHandler);
+    }, true);
+  }
+
+  /**
+   * @member {boolean} default
+   *         If this track was set to be on or off by default. Cannot be changed after
+   *         creation.
+   *
+   * @readonly
+   */
+  Object.defineProperty(tt, &#x27;default&#x27;, {
+    get: function get() {
+      return default_;
+    },
+    set: function set() {}
+  });
+
+  /**
+   * @member {string} mode
+   *         Set the mode of this TextTrack to a valid {@link TextTrack~Mode}. Will
+   *         not be set if setting to an invalid mode.
+   *
+   * @fires TextTrack#modechange
+   */
+  Object.defineProperty(tt, &#x27;mode&#x27;, {
+    get: function get() {
+      return mode;
+    },
+    set: function set(newMode) {
+      var _this2 = this;
+
+      if (!_trackEnums.TextTrackMode[newMode]) {
+        return;
+      }
+      mode = newMode;
+      if (mode === &#x27;showing&#x27;) {
+        this.tech_.ready(function () {
+          _this2.tech_.on(&#x27;timeupdate&#x27;, timeupdateHandler);
+        }, true);
+      }
+      /**
+       * An event that fires when mode changes on this track. This allows
+       * the TextTrackList that holds this track to act accordingly.
+       *
+       * &#x3e; Note: This is not part of the spec!
+       *
+       * @event TextTrack#modechange
+       * @type {EventTarget~Event}
+       */
+      this.trigger(&#x27;modechange&#x27;);
+    }
+  });
+
+  /**
+   * @member {TextTrackCueList} cues
+   *         The text track cue list for this TextTrack.
+   */
+  Object.defineProperty(tt, &#x27;cues&#x27;, {
+    get: function get() {
+      if (!this.loaded_) {
+        return null;
+      }
+
+      return cues;
+    },
+    set: function set() {}
+  });
+
+  /**
+   * @member {TextTrackCueList} activeCues
+   *         The list text track cues that are currently active for this TextTrack.
+   */
+  Object.defineProperty(tt, &#x27;activeCues&#x27;, {
+    get: function get() {
+      if (!this.loaded_) {
+        return null;
+      }
+
+      // nothing to do
+      if (this.cues.length === 0) {
+        return activeCues;
+      }
+
+      var ct = this.tech_.currentTime();
+      var active = [];
+
+      for (var i = 0, l = this.cues.length; i &#x3c; l; i++) {
+        var cue = this.cues[i];
+
+        if (cue.startTime &#x3c;= ct &#x26;&#x26; cue.endTime &#x3e;= ct) {
+          active.push(cue);
+        } else if (cue.startTime === cue.endTime &#x26;&#x26; cue.startTime &#x3c;= ct &#x26;&#x26; cue.startTime + 0.5 &#x3e;= ct) {
+          active.push(cue);
+        }
+      }
+
+      chang ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.VideoTrack" id="apidoc.element.video.js.VideoTrack">
+        function <span class="apidocSignatureSpan">video.js.</span>VideoTrack
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function VideoTrack() {
+  var _this, _ret;
+
+  var options = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : {};
+
+  _classCallCheck(this, VideoTrack);
+
+  var settings = (0, _mergeOptions2[&#x27;default&#x27;])(options, {
+    kind: _trackEnums.VideoTrackKind[options.kind] || &#x27;&#x27;
+  });
+
+  // on IE8 this will be a document element
+  // for every other browser this will be a normal object
+  var track = (_this = _possibleConstructorReturn(this, _Track.call(this, settings)), _this);
+  var selected = false;
+
+  if (browser.IS_IE8) {
+    for (var prop in VideoTrack.prototype) {
+      if (prop !== &#x27;constructor&#x27;) {
+        track[prop] = VideoTrack.prototype[prop];
+      }
+    }
+  }
+
+<span class="apidocCodeCommentSpan">  /**
+   * @member {boolean} selected
+   *         If this `VideoTrack` is selected or not. When setting this will
+   *         fire {@link VideoTrack#selectedchange} if the state of selected changed.
+   *
+   * @fires VideoTrack#selectedchange
+   */
+</span>  Object.defineProperty(track, &#x27;selected&#x27;, {
+    get: function get() {
+      return selected;
+    },
+    set: function set(newSelected) {
+      // an invalid or unchanged value
+      if (typeof newSelected !== &#x27;boolean&#x27; || newSelected === selected) {
+        return;
+      }
+      selected = newSelected;
+
+      /**
+       * An event that fires when selected changes on this track. This allows
+       * the VideoTrackList that holds this track to act accordingly.
+       *
+       * &#x3e; Note: This is not part of the spec! Native tracks will do
+       *         this internally without an event.
+       *
+       * @event VideoTrack#selectedchange
+       * @type {EventTarget~Event}
+       */
+      this.trigger(&#x27;selectedchange&#x27;);
+    }
+  });
+
+  // if the user sets this track to selected then
+  // set selected to that true value otherwise
+  // we keep it false
+  if (settings.selected) {
+    track.selected = settings.selected;
+  }
+
+  return _ret = track, _possibleConstructorReturn(_this, _ret);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.addClass" id="apidoc.element.video.js.addClass">
+        function <span class="apidocSignatureSpan">video.js.</span>addClass
+        <span class="apidocSignatureSpan">(element, classToAdd)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function addElClass(element, classToAdd) {
+  if (element.classList) {
+    element.classList.add(classToAdd);
+
+    // Don&#x27;t need to `throwIfWhitespace` here because `hasElClass` will do it
+    // in the case of classList not being supported.
+  } else if (!hasElClass(element, classToAdd)) {
+    element.className = (element.className + &#x27; &#x27; + classToAdd).trim();
+  }
+
+  return element;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *
+ * @return {ClickableComponent}
+ *         Returns itself; method can be chained.
+ */
+
+
+ClickableComponent.prototype.disable = function disable() {
+  this.<span class="apidocCodeKeywordSpan">addClass</span>(&#x27;vjs-disabled&#x27;);
+  this.el_.setAttribute(&#x27;aria-disabled&#x27;, &#x27;true&#x27;);
+  if (typeof this.tabIndex_ !== &#x27;undefined&#x27;) {
+    this.el_.removeAttribute(&#x27;tabIndex&#x27;);
+  }
+  this.off(&#x27;tap&#x27;, this.handleClick);
+  this.off(&#x27;click&#x27;, this.handleClick);
+  this.off(&#x27;focus&#x27;, this.handleFocus);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.addLanguage" id="apidoc.element.video.js.addLanguage">
+        function <span class="apidocSignatureSpan">video.js.</span>addLanguage
+        <span class="apidocSignatureSpan">(code, data)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">addLanguage = function (code, data) {
+  var _mergeOptions;
+
+  code = (&#x27;&#x27; + code).toLowerCase();
+
+  videojs.options.languages = (0, _mergeOptions3[&#x27;default&#x27;])(videojs.options.languages, (_mergeOptions = {}, _mergeOptions[code] =
+data, _mergeOptions));
+
+  return videojs.options.languages[code];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+  this.language_ = String(code).toLowerCase();
+  return this;
+};
+
+/**
+ * Get the player&#x27;s language dictionary
+ * Merge every time, because a newly added plugin might call videojs.<span class="apidocCodeKeywordSpan">addLanguage</span>() at
+ any time
+ * Languages specified directly in the player options have precedence
+ *
+ * @return {Array}
+ *         An array of of supported languages
+ */
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.appendContent" id="apidoc.element.video.js.appendContent">
+        function <span class="apidocSignatureSpan">video.js.</span>appendContent
+        <span class="apidocSignatureSpan">(el, content)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function appendContent(el, content) {
+  normalizeContent(content).forEach(function (node) {
+    return el.appendChild(node);
+  });
+  return el;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.bind" id="apidoc.element.video.js.bind">
+        function <span class="apidocSignatureSpan">video.js.</span>bind
+        <span class="apidocSignatureSpan">(context, fn, uid)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function bind(context, fn, uid) {
+  // Make sure the function has a unique ID
+  if (!fn.guid) {
+    fn.guid = (0, _guid.newGUID)();
+  }
+
+  // Create the new function that changes the context
+  var bound = function bound() {
+    return fn.apply(context, arguments);
+  };
+
+  // Allow for the ability to individualize this function
+  // Needed in the case where multiple objects might share the same prototype
+  // IF both items add an event listener with the same function, then you try to remove just one
+  // it will remove both because they both have the same guid.
+  // when using this, you need to use the bind method when you remove the listener as well.
+  // currently used in text tracks
+  bound.guid = uid ? uid + &#x27;_&#x27; + fn.guid : fn.guid;
+
+  return bound;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *        The `focus` event that caused this function to be called.
+ *
+ * @listens focus
+ */
+
+
+ClickableComponent.prototype.handleFocus = function handleFocus(event) {
+  Events.on(_document2[&#x27;default&#x27;], &#x27;keydown&#x27;, Fn.<span class="apidocCodeKeywordSpan">bind</span>(this, this.
+handleKeyPress));
+};
+
+/**
+ * Called when this ClickableComponent has focus and a key gets pressed down. By
+ * default it will call `this.handleClick` when the key is space or enter.
+ *
+ * @param {EventTarget~Event} event
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.computedStyle" id="apidoc.element.video.js.computedStyle">
+        function <span class="apidocSignatureSpan">video.js.</span>computedStyle
+        <span class="apidocSignatureSpan">(el, prop)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function computedStyle(el, prop) {
+  if (!el || !prop) {
+    return &#x27;&#x27;;
+  }
+
+  if (typeof _window2[&#x27;default&#x27;].getComputedStyle === &#x27;function&#x27;) {
+    var cs = _window2[&#x27;default&#x27;].getComputedStyle(el);
+
+    return cs ? cs[prop] : &#x27;&#x27;;
+  }
+
+  return el.currentStyle[prop] || &#x27;&#x27;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.createEl" id="apidoc.element.video.js.createEl">
+        function <span class="apidocSignatureSpan">video.js.</span>createEl
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createEl() {
+  var tagName = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : &#x27;div&#x27;;
+  var properties = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : {};
+  var attributes = arguments.length &#x3e; 2 &#x26;&#x26; arguments[2] !== undefined ? arguments[2] : {};
+  var content = arguments[3];
+
+  var el = _document2[&#x27;default&#x27;].createElement(tagName);
+
+  Object.getOwnPropertyNames(properties).forEach(function (propName) {
+    var val = properties[propName];
+
+    // See #2176
+    // We originally were accepting both properties and attributes in the
+    // same object, but that doesn&#x27;t work so well.
+    if (propName.indexOf(&#x27;aria-&#x27;) !== -1 || propName === &#x27;role&#x27; || propName === &#x27;type&#x27;) {
+      _log2[&#x27;default&#x27;].warn((0, _tsml2[&#x27;default&#x27;])(_templateObject, propName, val));
+      el.setAttribute(propName, val);
+
+      // Handle textContent since it&#x27;s not supported everywhere and we have a
+      // method for it.
+    } else if (propName === &#x27;textContent&#x27;) {
+      textContent(el, val);
+    } else {
+      el[propName] = val;
+    }
+  });
+
+  Object.getOwnPropertyNames(attributes).forEach(function (attrName) {
+    el.setAttribute(attrName, attributes[attrName]);
+  });
+
+  if (content) {
+    appendContent(el, content);
+  }
+
+  return el;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+   *
+   * @return {Element}
+   *         The control text element that gets created.
+   */
+
+
+  ClickableComponent.prototype.createControlTextEl = function createControlTextEl(el) {
+this.controlTextEl_ = Dom.<span class="apidocCodeKeywordSpan">createEl</span>(&#x27;span&#x27;, {
+  className: &#x27;vjs-control-text&#x27;
+});
+
+if (el) {
+  el.appendChild(this.controlTextEl_);
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.createTimeRange" id="apidoc.element.video.js.createTimeRange">
+        function <span class="apidocSignatureSpan">video.js.</span>createTimeRange
+        <span class="apidocSignatureSpan">(start, end)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createTimeRanges(start, end) {
+  if (Array.isArray(start)) {
+    return createTimeRangesObj(start);
+  } else if (start === undefined || end === undefined) {
+    return createTimeRangesObj();
+  }
+  return createTimeRangesObj([[start, end]]);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.createTimeRanges" id="apidoc.element.video.js.createTimeRanges">
+        function <span class="apidocSignatureSpan">video.js.</span>createTimeRanges
+        <span class="apidocSignatureSpan">(start, end)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createTimeRanges(start, end) {
+  if (Array.isArray(start)) {
+    return createTimeRangesObj(start);
+  } else if (start === undefined || end === undefined) {
+    return createTimeRangesObj();
+  }
+  return createTimeRangesObj([[start, end]]);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.emptyEl" id="apidoc.element.video.js.emptyEl">
+        function <span class="apidocSignatureSpan">video.js.</span>emptyEl
+        <span class="apidocSignatureSpan">(el)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function emptyEl(el) {
+  while (el.firstChild) {
+    el.removeChild(el.firstChild);
+  }
+  return el;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/**
+ * Fired just before a `ModalDialog` is emptied.
+ *
+ * @event ModalDialog#beforemodalempty
+ * @type {EventTarget~Event}
+ */
+this.trigger(&#x27;beforemodalempty&#x27;);
+Dom.<span class="apidocCodeKeywordSpan">emptyEl</span>(this.contentEl());
+
+/**
+ * Fired just after a `ModalDialog` is emptied.
+ *
+ * @event ModalDialog#modalempty
+ * @type {EventTarget~Event}
+ */
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.extend" id="apidoc.element.video.js.extend">
+        function <span class="apidocSignatureSpan">video.js.</span>extend
+        <span class="apidocSignatureSpan">(superClass)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function extendFn(superClass) {
+  var subClassMethods = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : {};
+
+  var subClass = function subClass() {
+    superClass.apply(this, arguments);
+  };
+
+  var methods = {};
+
+  if ((0, _obj.isObject)(subClassMethods)) {
+    if (typeof subClassMethods.init === &#x27;function&#x27;) {
+      _log2[&#x27;default&#x27;].warn(&#x27;Constructor logic via init() is deprecated; please use constructor() instead.&#x27;);
+      subClassMethods.constructor = subClassMethods.init;
+    }
+    if (subClassMethods.constructor !== Object.prototype.constructor) {
+      subClass = subClassMethods.constructor;
+    }
+    methods = subClassMethods;
+  } else if (typeof subClassMethods === &#x27;function&#x27;) {
+    subClass = subClassMethods;
+  }
+
+  _inherits(subClass, superClass);
+
+  // Extend subObj&#x27;s prototype with functions and other properties from props
+  for (var name in methods) {
+    if (methods.hasOwnProperty(name)) {
+      subClass.prototype[name] = methods[name];
+    }
+  }
+
+  return subClass;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+   * @deprecated since version 5
+   */
+
+
+  Component.extend = function extend(props) {
+props = props || {};
+
+_log2[&#x27;default&#x27;].warn(&#x27;Component.<span class="apidocCodeKeywordSpan">extend</span>({}) has been deprecated, &#x27
+; + &#x27; use videojs.extend(Component, {}) instead&#x27;);
+
+// Set up the constructor using the supplied init method
+// or using the init of the parent object
+// Make sure to check the unobfuscated version for external libs
+var init = props.init || props.init || this.prototype.init || this.prototype.init || function () {};
+// In Resig&#x27;s simple class inheritance (previously used) the constructor
+//  is a function that calls `this.init.apply(arguments)`
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.formatTime" id="apidoc.element.video.js.formatTime">
+        function <span class="apidocSignatureSpan">video.js.</span>formatTime
+        <span class="apidocSignatureSpan">(seconds)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function formatTime(seconds) {
+  var guide = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : seconds;
+
+  seconds = seconds &#x3c; 0 ? 0 : seconds;
+  var s = Math.floor(seconds % 60);
+  var m = Math.floor(seconds / 60 % 60);
+  var h = Math.floor(seconds / 3600);
+  var gm = Math.floor(guide / 60 % 60);
+  var gh = Math.floor(guide / 3600);
+
+  // handle invalid times
+  if (isNaN(seconds) || seconds === Infinity) {
+    // &#x27;-&#x27; is false for all relational operators (e.g. &#x3c;, &#x3e;=) so this setting
+    // will add the minimum number of fields specified by the guide
+    h = m = s = &#x27;-&#x27;;
+  }
+
+  // Check if we need to show hours
+  h = h &#x3e; 0 || gh &#x3e; 0 ? h + &#x27;:&#x27; : &#x27;&#x27;;
+
+  // If hours are showing, we may need to add a leading zero.
+  // Always show at least one digit of minutes.
+  m = ((h || gm &#x3e;= 10) &#x26;&#x26; m &#x3c; 10 ? &#x27;0&#x27; + m : m) + &#x27;:&#x27;;
+
+  // Check if leading zero is need for seconds
+  s = s &#x3c; 10 ? &#x27;0&#x27; + s : s;
+
+  return h + m + s;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.getAttributes" id="apidoc.element.video.js.getAttributes">
+        function <span class="apidocSignatureSpan">video.js.</span>getAttributes
+        <span class="apidocSignatureSpan">(tag)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getElAttributes(tag) {
+  var obj = {};
+
+  // known boolean attributes
+  // we can check for matching boolean properties, but older browsers
+  // won&#x27;t know about HTML5 boolean attributes that we still read from
+  var knownBooleans = &#x27;,&#x27; + &#x27;autoplay,controls,loop,muted,default&#x27; + &#x27;,&#x27;;
+
+  if (tag &#x26;&#x26; tag.attributes &#x26;&#x26; tag.attributes.length &#x3e; 0) {
+    var attrs = tag.attributes;
+
+    for (var i = attrs.length - 1; i &#x3e;= 0; i--) {
+      var attrName = attrs[i].name;
+      var attrVal = attrs[i].value;
+
+      // check for known booleans
+      // the matching element property will return a value for typeof
+      if (typeof tag[attrName] === &#x27;boolean&#x27; || knownBooleans.indexOf(&#x27;,&#x27; + attrName + &#x27;,&#x27;) !== -1) {
+        // the value of an included boolean attribute is typically an empty
+        // string (&#x27;&#x27;) which would equal false if we just check for a false value.
+        // we also don&#x27;t want support bad code like autoplay=&#x27;false&#x27;
+        attrVal = attrVal !== null ? true : false;
+      }
+
+      obj[attrName] = attrVal;
+    }
+  }
+
+  return obj;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.getComponent" id="apidoc.element.video.js.getComponent">
+        function <span class="apidocSignatureSpan">video.js.</span>getComponent
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getComponent(name) {
+  if (!name) {
+    return;
+  }
+
+  name = (0, _toTitleCase2[&#x27;default&#x27;])(name);
+
+  if (Component.components_ &#x26;&#x26; Component.components_[name]) {
+    return Component.components_[name];
+  }
+
+  if (_window2[&#x27;default&#x27;] &#x26;&#x26; _window2[&#x27;default&#x27;].videojs &#x26;&#x26; _window2[&#x27;default&#x27;].videojs[name]) {
+    _log2[&#x27;default&#x27;].warn(&#x27;The &#x27; + name + &#x27; component was added to the videojs object when it should be registered using videojs
+.registerComponent(name, component)&#x27;);
+
+    return _window2[&#x27;default&#x27;].videojs[name];
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var componentClassName = options.componentClass || componentName;
+
+// Set name through options
+options.name = componentName;
+
+// Create a new object &#x26; element for this controls set
+// If there&#x27;s no .player_, this is a player
+var ComponentClass = Component.<span class="apidocCodeKeywordSpan">getComponent</span>(componentClassName);
+
+if (!ComponentClass) {
+  throw new Error(&#x27;Component &#x27; + componentClassName + &#x27; does not exist&#x27;);
+}
+
+// data stored directly on the videojs object may be
+// misidentified as a component to retain
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.getPlayers" id="apidoc.element.video.js.getPlayers">
+        function <span class="apidocSignatureSpan">video.js.</span>getPlayers
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getPlayers = function () {
+  return _player2[&#x27;default&#x27;].players;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.getTech" id="apidoc.element.video.js.getTech">
+        function <span class="apidocSignatureSpan">video.js.</span>getTech
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getTech(name) {
+  if (Tech.techs_ &#x26;&#x26; Tech.techs_[name]) {
+    return Tech.techs_[name];
+  }
+
+  if (_window2[&#x27;default&#x27;] &#x26;&#x26; _window2[&#x27;default&#x27;].videojs &#x26;&#x26; _window2[&#x27;default&#x27;].videojs[name]) {
+    _log2[&#x27;default&#x27;].warn(&#x27;The &#x27; + name + &#x27; tech was added to the videojs object when it should be registered using videojs.registerTech
+(name, tech)&#x27;);
+    return _window2[&#x27;default&#x27;].videojs[name];
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// Pause and remove current playback technology
+if (this.tech_) {
+  this.unloadTech_();
+}
+
+// get rid of the HTML5 video tag as soon as we are using another tech
+if (techName !== &#x27;Html5&#x27; &#x26;&#x26; this.tag) {
+  _tech2[&#x27;default&#x27;].<span class="apidocCodeKeywordSpan">getTech</span>(&#x27;Html5&#x27;).disposeMediaElement(this.tag
+);
+  this.tag.player = null;
+  this.tag = null;
+}
+
+this.techName_ = techName;
+
+// Turn off API access because we&#x27;re loading a new tech that might load asynchronously
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.hasClass" id="apidoc.element.video.js.hasClass">
+        function <span class="apidocSignatureSpan">video.js.</span>hasClass
+        <span class="apidocSignatureSpan">(element, classToCheck)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function hasElClass(element, classToCheck) {
+  throwIfWhitespace(classToCheck);
+  if (element.classList) {
+    return element.classList.contains(classToCheck);
+  }
+  return classRegExp(classToCheck).test(element.className);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.hook" id="apidoc.element.video.js.hook">
+        function <span class="apidocSignatureSpan">video.js.</span>hook
+        <span class="apidocSignatureSpan">(type, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">hook = function (type, fn) {
+  videojs.hooks(type, fn);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.hooks" id="apidoc.element.video.js.hooks">
+        function <span class="apidocSignatureSpan">video.js.</span>hooks
+        <span class="apidocSignatureSpan">(type, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">hooks = function (type, fn) {
+  videojs.hooks_[type] = videojs.hooks_[type] || [];
+  if (fn) {
+    videojs.hooks_[type] = videojs.hooks_[type].concat(fn);
+  }
+  return videojs.hooks_[type];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.insertContent" id="apidoc.element.video.js.insertContent">
+        function <span class="apidocSignatureSpan">video.js.</span>insertContent
+        <span class="apidocSignatureSpan">(el, content)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function insertContent(el, content) {
+  return appendContent(emptyEl(el), content);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+this.trigger(&#x27;beforemodalfill&#x27;);
+this.hasBeenFilled_ = true;
+
+// Detach the content element from the DOM before performing
+// manipulation to avoid modifying the live DOM multiple times.
+parentEl.removeChild(contentEl);
+this.empty();
+Dom.<span class="apidocCodeKeywordSpan">insertContent</span>(contentEl, content);
+/**
+ * Fired just after a `ModalDialog` is filled with content.
+ *
+ * @event ModalDialog#modalfill
+ * @type {EventTarget~Event}
+ */
+this.trigger(&#x27;modalfill&#x27;);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.isCrossOrigin" id="apidoc.element.video.js.isCrossOrigin">
+        function <span class="apidocSignatureSpan">video.js.</span>isCrossOrigin
+        <span class="apidocSignatureSpan">(url)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isCrossOrigin(url) {
+  var winLoc = _window2[&#x27;default&#x27;].location;
+  var urlInfo = parseUrl(url);
+
+  // IE8 protocol relative urls will return &#x27;:&#x27; for protocol
+  var srcProtocol = urlInfo.protocol === &#x27;:&#x27; ? winLoc.protocol : urlInfo.protocol;
+
+  // Check if url is for another domain/origin
+  // IE8 doesn&#x27;t know location.origin, so we won&#x27;t rely on it here
+  var crossOrigin = srcProtocol + urlInfo.host !== winLoc.protocol + winLoc.host;
+
+  return crossOrigin;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.isEl" id="apidoc.element.video.js.isEl">
+        function <span class="apidocSignatureSpan">video.js.</span>isEl
+        <span class="apidocSignatureSpan">(value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isEl(value) {
+  return (0, _obj.isObject)(value) &#x26;&#x26; value.nodeType === 1;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.isTextNode" id="apidoc.element.video.js.isTextNode">
+        function <span class="apidocSignatureSpan">video.js.</span>isTextNode
+        <span class="apidocSignatureSpan">(value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isTextNode(value) {
+  return (0, _obj.isObject)(value) &#x26;&#x26; value.nodeType === 3;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.js.EventTarget" id="apidoc.element.video.js.js.EventTarget">
+        function <span class="apidocSignatureSpan">video.js.</span>js.EventTarget
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function EventTarget() {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.js.TextTrack" id="apidoc.element.video.js.js.TextTrack">
+        function <span class="apidocSignatureSpan">video.js.</span>js.TextTrack
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TextTrack() {
+  var _this, _ret;
+
+  var options = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : {};
+
+  _classCallCheck(this, TextTrack);
+
+  if (!options.tech) {
+    throw new Error(&#x27;A tech was not provided.&#x27;);
+  }
+
+  var settings = (0, _mergeOptions2[&#x27;default&#x27;])(options, {
+    kind: _trackEnums.TextTrackKind[options.kind] || &#x27;subtitles&#x27;,
+    language: options.language || options.srclang || &#x27;&#x27;
+  });
+  var mode = _trackEnums.TextTrackMode[settings.mode] || &#x27;disabled&#x27;;
+  var default_ = settings[&#x27;default&#x27;];
+
+  if (settings.kind === &#x27;metadata&#x27; || settings.kind === &#x27;chapters&#x27;) {
+    mode = &#x27;hidden&#x27;;
+  }
+  // on IE8 this will be a document element
+  // for every other browser this will be a normal object
+  var tt = (_this = _possibleConstructorReturn(this, _Track.call(this, settings)), _this);
+
+  tt.tech_ = settings.tech;
+
+  if (browser.IS_IE8) {
+    for (var prop in TextTrack.prototype) {
+      if (prop !== &#x27;constructor&#x27;) {
+        tt[prop] = TextTrack.prototype[prop];
+      }
+    }
+  }
+
+  tt.cues_ = [];
+  tt.activeCues_ = [];
+
+  var cues = new _textTrackCueList2[&#x27;default&#x27;](tt.cues_);
+  var activeCues = new _textTrackCueList2[&#x27;default&#x27;](tt.activeCues_);
+  var changed = false;
+  var timeupdateHandler = Fn.bind(tt, function () {
+
+    // Accessing this.activeCues for the side-effects of updating itself
+    // due to it&#x27;s nature as a getter function. Do not remove or cues will
+    // stop updating!
+<span class="apidocCodeCommentSpan">    /* eslint-disable no-unused-expressions */
+</span>    this.activeCues;
+    /* eslint-enable no-unused-expressions */
+    if (changed) {
+      this.trigger(&#x27;cuechange&#x27;);
+      changed = false;
+    }
+  });
+
+  if (mode !== &#x27;disabled&#x27;) {
+    tt.tech_.ready(function () {
+      tt.tech_.on(&#x27;timeupdate&#x27;, timeupdateHandler);
+    }, true);
+  }
+
+  /**
+   * @member {boolean} default
+   *         If this track was set to be on or off by default. Cannot be changed after
+   *         creation.
+   *
+   * @readonly
+   */
+  Object.defineProperty(tt, &#x27;default&#x27;, {
+    get: function get() {
+      return default_;
+    },
+    set: function set() {}
+  });
+
+  /**
+   * @member {string} mode
+   *         Set the mode of this TextTrack to a valid {@link TextTrack~Mode}. Will
+   *         not be set if setting to an invalid mode.
+   *
+   * @fires TextTrack#modechange
+   */
+  Object.defineProperty(tt, &#x27;mode&#x27;, {
+    get: function get() {
+      return mode;
+    },
+    set: function set(newMode) {
+      var _this2 = this;
+
+      if (!_trackEnums.TextTrackMode[newMode]) {
+        return;
+      }
+      mode = newMode;
+      if (mode === &#x27;showing&#x27;) {
+        this.tech_.ready(function () {
+          _this2.tech_.on(&#x27;timeupdate&#x27;, timeupdateHandler);
+        }, true);
+      }
+      /**
+       * An event that fires when mode changes on this track. This allows
+       * the TextTrackList that holds this track to act accordingly.
+       *
+       * &#x3e; Note: This is not part of the spec!
+       *
+       * @event TextTrack#modechange
+       * @type {EventTarget~Event}
+       */
+      this.trigger(&#x27;modechange&#x27;);
+    }
+  });
+
+  /**
+   * @member {TextTrackCueList} cues
+   *         The text track cue list for this TextTrack.
+   */
+  Object.defineProperty(tt, &#x27;cues&#x27;, {
+    get: function get() {
+      if (!this.loaded_) {
+        return null;
+      }
+
+      return cues;
+    },
+    set: function set() {}
+  });
+
+  /**
+   * @member {TextTrackCueList} activeCues
+   *         The list text track cues that are currently active for this TextTrack.
+   */
+  Object.defineProperty(tt, &#x27;activeCues&#x27;, {
+    get: function get() {
+      if (!this.loaded_) {
+        return null;
+      }
+
+      // nothing to do
+      if (this.cues.length === 0) {
+        return activeCues;
+      }
+
+      var ct = this.tech_.currentTime();
+      var active = [];
+
+      for (var i = 0, l = this.cues.length; i &#x3c; l; i++) {
+        var cue = this.cues[i];
+
+        if (cue.startTime &#x3c;= ct &#x26;&#x26; cue.endTime &#x3e;= ct) {
+          active.push(cue);
+        } else if (cue.startTime === cue.endTime &#x26;&#x26; cue.startTime &#x3c;= ct &#x26;&#x26; cue.startTime + 0.5 &#x3e;= ct) {
+          active.push(cue);
+        }
+      }
+
+      chang ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.js.log" id="apidoc.element.video.js.js.log">
+        function <span class="apidocSignatureSpan">video.js.</span>js.log
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function log() {
+  for (var _len = arguments.length, args = Array(_len), _key = 0; _key &#x3c; _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  logByType(&#x27;log&#x27;, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.js.xhr" id="apidoc.element.video.js.js.xhr">
+        function <span class="apidocSignatureSpan">video.js.</span>js.xhr
+        <span class="apidocSignatureSpan">(uri, options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createXHR(uri, options, callback) {
+    options = initParams(uri, options, callback)
+    return _createXHR(options)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.log" id="apidoc.element.video.js.log">
+        function <span class="apidocSignatureSpan">video.js.</span>log
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function log() {
+  for (var _len = arguments.length, args = Array(_len), _key = 0; _key &#x3c; _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  logByType(&#x27;log&#x27;, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+The `videojs` function also accepts an `options` object and a callback to be invoked
+ when the player is ready:
+
+```js
+var options = {};
+
+var player = videojs(&#x27;my-player&#x27;, options, function onPlayerReady() {
+videojs.<span class="apidocCodeKeywordSpan">log</span>(&#x27;Your player is ready!&#x27;);
+
+// In this context, `this` is the player that was created by Video.js.
+this.play();
+
+// How about an event listener?
+this.on(&#x27;ended&#x27;, function() {
+  videojs.log(&#x27;Awww...over so soon?!&#x27;);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.mergeOptions" id="apidoc.element.video.js.mergeOptions">
+        function <span class="apidocSignatureSpan">video.js.</span>mergeOptions
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function mergeOptions() {
+  var result = {};
+
+  for (var _len = arguments.length, sources = Array(_len), _key = 0; _key &#x3c; _len; _key++) {
+    sources[_key] = arguments[_key];
+  }
+
+  sources.forEach(function (source) {
+    if (!source) {
+      return;
+    }
+
+    (0, _obj.each)(source, function (value, key) {
+      if (!(0, _obj.isPlain)(value)) {
+        result[key] = value;
+        return;
+      }
+
+      if (!(0, _obj.isPlain)(result[key])) {
+        result[key] = {};
+      }
+
+      result[key] = mergeOptions(result[key], value);
+    });
+  });
+
+  return result;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.off" id="apidoc.element.video.js.off">
+        function <span class="apidocSignatureSpan">video.js.</span>off
+        <span class="apidocSignatureSpan">(elem, type, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function off(elem, type, fn) {
+  // Don&#x27;t want to add a cache object through getElData if not needed
+  if (!Dom.hasElData(elem)) {
+    return;
+  }
+
+  var data = Dom.getElData(elem);
+
+  // If no events exist, nothing to unbind
+  if (!data.handlers) {
+    return;
+  }
+
+  if (Array.isArray(type)) {
+    return _handleMultipleEvents(off, elem, type, fn);
+  }
+
+  // Utility function
+  var removeType = function removeType(t) {
+    data.handlers[t] = [];
+    _cleanUpEvents(elem, t);
+  };
+
+  // Are we removing all bound events?
+  if (!type) {
+    for (var t in data.handlers) {
+      removeType(t);
+    }
+    return;
+  }
+
+  var handlers = data.handlers[type];
+
+  // If no handlers exist, nothing to unbind
+  if (!handlers) {
+    return;
+  }
+
+  // If no listener was provided, remove all listeners for type
+  if (!fn) {
+    removeType(type);
+    return;
+  }
+
+  // We&#x27;re only removing a single handler
+  if (fn.guid) {
+    for (var n = 0; n &#x3c; handlers.length; n++) {
+      if (handlers[n].guid === fn.guid) {
+        handlers.splice(n--, 1);
+      }
+    }
+  }
+
+  _cleanUpEvents(elem, type);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+ClickableComponent.prototype.disable = function disable() {
+  this.addClass(&#x27;vjs-disabled&#x27;);
+  this.el_.setAttribute(&#x27;aria-disabled&#x27;, &#x27;true&#x27;);
+  if (typeof this.tabIndex_ !== &#x27;undefined&#x27;) {
+    this.el_.removeAttribute(&#x27;tabIndex&#x27;);
+  }
+  this.<span class="apidocCodeKeywordSpan">off</span>(&#x27;tap&#x27;, this.handleClick);
+  this.off(&#x27;click&#x27;, this.handleClick);
+  this.off(&#x27;focus&#x27;, this.handleFocus);
+  this.off(&#x27;blur&#x27;, this.handleBlur);
+  return this;
+};
+
+/**
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.on" id="apidoc.element.video.js.on">
+        function <span class="apidocSignatureSpan">video.js.</span>on
+        <span class="apidocSignatureSpan">(elem, type, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function on(elem, type, fn) {
+  if (Array.isArray(type)) {
+    return _handleMultipleEvents(on, elem, type, fn);
+  }
+
+  var data = Dom.getElData(elem);
+
+  // We need a place to store all our handler data
+  if (!data.handlers) {
+    data.handlers = {};
+  }
+
+  if (!data.handlers[type]) {
+    data.handlers[type] = [];
+  }
+
+  if (!fn.guid) {
+    fn.guid = Guid.newGUID();
+  }
+
+  data.handlers[type].push(fn);
+
+  if (!data.dispatcher) {
+    data.disabled = false;
+
+    data.dispatcher = function (event, hash) {
+
+      if (data.disabled) {
+        return;
+      }
+
+      event = fixEvent(event);
+
+      var handlers = data.handlers[event.type];
+
+      if (handlers) {
+        // Copy handlers so if handlers are added/removed during the process it doesn&#x27;t throw everything off.
+        var handlersCopy = handlers.slice(0);
+
+        for (var m = 0, n = handlersCopy.length; m &#x3c; n; m++) {
+          if (event.isImmediatePropagationStopped()) {
+            break;
+          } else {
+            try {
+              handlersCopy[m].call(elem, event, hash);
+            } catch (e) {
+              _log2[&#x27;default&#x27;].error(e);
+            }
+          }
+        }
+      }
+    };
+  }
+
+  if (data.handlers[type].length === 1) {
+    if (elem.addEventListener) {
+      elem.addEventListener(type, data.dispatcher, false);
+    } else if (elem.attachEvent) {
+      elem.attachEvent(&#x27;on&#x27; + type, data.dispatcher);
+    }
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var player = videojs(&#x27;my-player&#x27;, options, function onPlayerReady() {
+  videojs.log(&#x27;Your player is ready!&#x27;);
+
+  // In this context, `this` is the player that was created by Video.js.
+  this.play();
+
+  // How about an event listener?
+  this.<span class="apidocCodeKeywordSpan">on</span>(&#x27;ended&#x27;, function() {
+    videojs.log(&#x27;Awww...over so soon?!&#x27;);
+  });
+});
+```
+
+If you&#x27;re ready to dive in, the [Getting Started][getting-started] page and [documentation][docs] are the best places to go
+ for more information. If you get stuck, head over to our [Slack channel][slack-link]!
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.one" id="apidoc.element.video.js.one">
+        function <span class="apidocSignatureSpan">video.js.</span>one
+        <span class="apidocSignatureSpan">(elem, type, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function one(elem, type, fn) {
+  if (Array.isArray(type)) {
+    return _handleMultipleEvents(one, elem, type, fn);
+  }
+  var func = function func() {
+    off(elem, type, func);
+    fn.apply(this, arguments);
+  };
+
+  // copy the guid to the new function so it can removed using the original function&#x27;s ID
+  func.guid = fn.guid = fn.guid || Guid.newGUID();
+  on(elem, type, func);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+  Component.prototype.one = function one(first, second, third) {
+    var _this3 = this,
+  _arguments = arguments;
+
+    if (typeof first === &#x27;string&#x27; || Array.isArray(first)) {
+Events.<span class="apidocCodeKeywordSpan">one</span>(this.el_, first, Fn.bind(this, second));
+    } else {
+var target = first;
+var type = second;
+var fn = Fn.bind(this, third);
+
+var newFunc = function newFunc() {
+  _this3.off(target, type, newFunc);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.parseUrl" id="apidoc.element.video.js.parseUrl">
+        function <span class="apidocSignatureSpan">video.js.</span>parseUrl
+        <span class="apidocSignatureSpan">(url)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function parseUrl(url) {
+  var props = [&#x27;protocol&#x27;, &#x27;hostname&#x27;, &#x27;port&#x27;, &#x27;pathname&#x27;, &#x27;search&#x27;, &#x27;hash&#x27;, &#x27;host&#x27;];
+
+  // add the url to an anchor and let the browser parse the URL
+  var a = _document2[&#x27;default&#x27;].createElement(&#x27;a&#x27;);
+
+  a.href = url;
+
+  // IE8 (and 9?) Fix
+  // ie8 doesn&#x27;t parse the URL correctly until the anchor is actually
+  // added to the body, and an innerHTML is needed to trigger the parsing
+  var addToBody = a.host === &#x27;&#x27; &#x26;&#x26; a.protocol !== &#x27;file:&#x27;;
+  var div = void 0;
+
+  if (addToBody) {
+    div = _document2[&#x27;default&#x27;].createElement(&#x27;div&#x27;);
+    div.innerHTML = &#x27;&#x3c;a href=&#x22;&#x27; + url + &#x27;&#x22;&#x3e;&#x3c;/a&#x3e;&#x27;;
+    a = div.firstChild;
+    // prevent the div from affecting layout
+    div.setAttribute(&#x27;style&#x27;, &#x27;display:none; position:absolute;&#x27;);
+    _document2[&#x27;default&#x27;].body.appendChild(div);
+  }
+
+  // Copy the specific URL properties to a new object
+  // This is also needed for IE8 because the anchor loses its
+  // properties when it&#x27;s removed from the dom
+  var details = {};
+
+  for (var i = 0; i &#x3c; props.length; i++) {
+    details[props[i]] = a[props[i]];
+  }
+
+  // IE9 adds the port to the host property unlike everyone else. If
+  // a port identifier is added for standard ports, strip it.
+  if (details.protocol === &#x27;http:&#x27;) {
+    details.host = details.host.replace(/:80$/, &#x27;&#x27;);
+  }
+
+  if (details.protocol === &#x27;https:&#x27;) {
+    details.host = details.host.replace(/:443$/, &#x27;&#x27;);
+  }
+
+  if (addToBody) {
+    _document2[&#x27;default&#x27;].body.removeChild(div);
+  }
+
+  return details;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.plugin" id="apidoc.element.video.js.plugin">
+        function <span class="apidocSignatureSpan">video.js.</span>plugin
+        <span class="apidocSignatureSpan">(name, init)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function plugin(name, init) {
+  _player2[&#x27;default&#x27;].prototype[name] = init;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.registerComponent" id="apidoc.element.video.js.registerComponent">
+        function <span class="apidocSignatureSpan">video.js.</span>registerComponent
+        <span class="apidocSignatureSpan">(name, comp)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">registerComponent = function (name, comp) {
+  if (_tech2[&#x27;default&#x27;].isTech(comp)) {
+    _log2[&#x27;default&#x27;].warn(&#x27;The &#x27; + name + &#x27; tech was registered as a component. It should instead be registered using videojs.registerTech
+(name, tech)&#x27;);
+  }
+
+  _component2[&#x27;default&#x27;].registerComponent.call(_component2[&#x27;default&#x27;], name, comp);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @type {string}
+ * @private
+ */
+
+
+BigPlayButton.prototype.controlText_ = &#x27;Play Video&#x27;;
+
+_component2[&#x27;default&#x27;].<span class="apidocCodeKeywordSpan">registerComponent</span>(&#x27;BigPlayButton&#x27;, BigPlayButton
+);
+exports[&#x27;default&#x27;] = BigPlayButton;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.registerTech" id="apidoc.element.video.js.registerTech">
+        function <span class="apidocSignatureSpan">video.js.</span>registerTech
+        <span class="apidocSignatureSpan">(name, tech)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function registerTech(name, tech) {
+  if (!Tech.techs_) {
+    Tech.techs_ = {};
+  }
+
+  if (!Tech.isTech(tech)) {
+    throw new Error(&#x27;Tech &#x27; + name + &#x27; must be a Tech&#x27;);
+  }
+
+  Tech.techs_[name] = tech;
+  return tech;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.removeClass" id="apidoc.element.video.js.removeClass">
+        function <span class="apidocSignatureSpan">video.js.</span>removeClass
+        <span class="apidocSignatureSpan">(element, classToRemove)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function removeElClass(element, classToRemove) {
+  if (element.classList) {
+    element.classList.remove(classToRemove);
+  } else {
+    throwIfWhitespace(classToRemove);
+    element.className = element.className.split(/\s+/).filter(function (c) {
+      return c !== classToRemove;
+    }).join(&#x27; &#x27;);
+  }
+
+  return element;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *
+ * @return {ClickableComponent}
+ *         Returns itself; method can be chained.
+ */
+
+
+ClickableComponent.prototype.enable = function enable() {
+  this.<span class="apidocCodeKeywordSpan">removeClass</span>(&#x27;vjs-disabled&#x27;);
+  this.el_.setAttribute(&#x27;aria-disabled&#x27;, &#x27;false&#x27;);
+  if (typeof this.tabIndex_ !== &#x27;undefined&#x27;) {
+    this.el_.setAttribute(&#x27;tabIndex&#x27;, this.tabIndex_);
+  }
+  this.on(&#x27;tap&#x27;, this.handleClick);
+  this.on(&#x27;click&#x27;, this.handleClick);
+  this.on(&#x27;focus&#x27;, this.handleFocus);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.removeHook" id="apidoc.element.video.js.removeHook">
+        function <span class="apidocSignatureSpan">video.js.</span>removeHook
+        <span class="apidocSignatureSpan">(type, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">removeHook = function (type, fn) {
+  var index = videojs.hooks(type).indexOf(fn);
+
+  if (index &#x3c;= -1) {
+    return false;
+  }
+
+  videojs.hooks_[type] = videojs.hooks_[type].slice();
+  videojs.hooks_[type].splice(index, 1);
+
+  return true;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.setAttributes" id="apidoc.element.video.js.setAttributes">
+        function <span class="apidocSignatureSpan">video.js.</span>setAttributes
+        <span class="apidocSignatureSpan">(el, attributes)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function setElAttributes(el, attributes) {
+  Object.getOwnPropertyNames(attributes).forEach(function (attrName) {
+    var attrValue = attributes[attrName];
+
+    if (attrValue === null || typeof attrValue === &#x27;undefined&#x27; || attrValue === false) {
+      el.removeAttribute(attrName);
+    } else {
+      el.setAttribute(attrName, attrValue === true ? &#x27;&#x27; : attrValue);
+    }
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.toggleClass" id="apidoc.element.video.js.toggleClass">
+        function <span class="apidocSignatureSpan">video.js.</span>toggleClass
+        <span class="apidocSignatureSpan">(element, classToToggle, predicate)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toggleElClass(element, classToToggle, predicate) {
+
+  // This CANNOT use `classList` internally because IE does not support the
+  // second parameter to the `classList.toggle()` method! Which is fine because
+  // `classList` will be used by the add/remove functions.
+  var has = hasElClass(element, classToToggle);
+
+  if (typeof predicate === &#x27;function&#x27;) {
+    predicate = predicate(element, classToToggle);
+  }
+
+  if (typeof predicate !== &#x27;boolean&#x27;) {
+    predicate = !has;
+  }
+
+  // If the necessary class operation matches the current state of the
+  // element, no action is required.
+  if (predicate === has) {
+    return;
+  }
+
+  if (predicate) {
+    addElClass(element, classToToggle);
+  } else {
+    removeElClass(element, classToToggle);
+  }
+
+  return element;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.trigger" id="apidoc.element.video.js.trigger">
+        function <span class="apidocSignatureSpan">video.js.</span>trigger
+        <span class="apidocSignatureSpan">(elem, event, hash)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function trigger(elem, event, hash) {
+  // Fetches element data and a reference to the parent (for bubbling).
+  // Don&#x27;t want to add a data object to cache for every parent,
+  // so checking hasElData first.
+  var elemData = Dom.hasElData(elem) ? Dom.getElData(elem) : {};
+  var parent = elem.parentNode || elem.ownerDocument;
+  // type = event.type || event,
+  // handler;
+
+  // If an event name was passed as a string, creates an event out of it
+  if (typeof event === &#x27;string&#x27;) {
+    event = { type: event, target: elem };
+  }
+  // Normalizes the event properties.
+  event = fixEvent(event);
+
+  // If the passed element has a dispatcher, executes the established handlers.
+  if (elemData.dispatcher) {
+    elemData.dispatcher.call(elem, event, hash);
+  }
+
+  // Unless explicitly stopped or the event does not bubble (e.g. media events)
+  // recursively calls this function to bubble the event up the DOM.
+  if (parent &#x26;&#x26; !event.isPropagationStopped() &#x26;&#x26; event.bubbles === true) {
+    trigger.call(null, parent, event, hash);
+
+    // If at the top of the DOM, triggers the default action unless disabled.
+  } else if (!parent &#x26;&#x26; !event.defaultPrevented) {
+    var targetData = Dom.getElData(event.target);
+
+    // Checks if the target has a default action for this event.
+    if (event.target[event.type]) {
+      // Temporarily disables event dispatching on the target as we have already executed the handler.
+      targetData.disabled = true;
+      // Executes the default action.
+      if (typeof event.target[event.type] === &#x27;function&#x27;) {
+        event.target[event.type]();
+      }
+      // Re-enables event dispatching.
+      targetData.disabled = false;
+    }
+  }
+
+  // Inform the triggerer if the default was prevented by returning false
+  return !event.defaultPrevented;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+     * @event CloseButton#close
+     * @type {EventTarget~Event}
+     *
+     * @property {boolean} [bubbles=false]
+     *           set to false so that the close event does not
+     *           bubble up to parents if there is no listener
+     */
+    this.<span class="apidocCodeKeywordSpan">trigger</span>({ type: &#x27;close&#x27;, bubbles: false });
+  };
+
+  return CloseButton;
+}(_button2[&#x27;default&#x27;]);
+
+_component2[&#x27;default&#x27;].registerComponent(&#x27;CloseButton&#x27;, CloseButton);
+exports[&#x27;default&#x27;] = CloseButton;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.xhr" id="apidoc.element.video.js.xhr">
+        function <span class="apidocSignatureSpan">video.js.</span>xhr
+        <span class="apidocSignatureSpan">(uri, options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createXHR(uri, options, callback) {
+    options = initParams(uri, options, callback)
+    return _createXHR(options)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.EventTarget" id="apidoc.module.video.js.EventTarget">module video.js.EventTarget</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.EventTarget.EventTarget" id="apidoc.element.video.js.EventTarget.EventTarget">
+        function <span class="apidocSignatureSpan">video.js.</span>EventTarget
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function EventTarget() {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.EventTarget.prototype" id="apidoc.module.video.js.EventTarget.prototype">module video.js.EventTarget.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.EventTarget.prototype.addEventListener" id="apidoc.element.video.js.EventTarget.prototype.addEventListener">
+        function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>addEventListener
+        <span class="apidocSignatureSpan">(type, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">addEventListener = function (type, fn) {
+  // Remove the addEventListener alias before calling Events.on
+  // so we don&#x27;t get into an infinite type loop
+  var ael = this.addEventListener;
+
+  this.addEventListener = function () {};
+  Events.on(this, type, fn);
+  this.addEventListener = ael;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.EventTarget.prototype.dispatchEvent" id="apidoc.element.video.js.EventTarget.prototype.dispatchEvent">
+        function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>dispatchEvent
+        <span class="apidocSignatureSpan">(event)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">dispatchEvent = function (event) {
+  var type = event.type || event;
+
+  if (typeof event === &#x27;string&#x27;) {
+    event = { type: type };
+  }
+  event = Events.fixEvent(event);
+
+  if (this.allowedEvents_[type] &#x26;&#x26; this[&#x27;on&#x27; + type]) {
+    this[&#x27;on&#x27; + type](event);
+  }
+
+  Events.trigger(this, event);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.EventTarget.prototype.off" id="apidoc.element.video.js.EventTarget.prototype.off">
+        function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>off
+        <span class="apidocSignatureSpan">(type, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">off = function (type, fn) {
+  Events.off(this, type, fn);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+ClickableComponent.prototype.disable = function disable() {
+  this.addClass(&#x27;vjs-disabled&#x27;);
+  this.el_.setAttribute(&#x27;aria-disabled&#x27;, &#x27;true&#x27;);
+  if (typeof this.tabIndex_ !== &#x27;undefined&#x27;) {
+    this.el_.removeAttribute(&#x27;tabIndex&#x27;);
+  }
+  this.<span class="apidocCodeKeywordSpan">off</span>(&#x27;tap&#x27;, this.handleClick);
+  this.off(&#x27;click&#x27;, this.handleClick);
+  this.off(&#x27;focus&#x27;, this.handleFocus);
+  this.off(&#x27;blur&#x27;, this.handleBlur);
+  return this;
+};
+
+/**
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.EventTarget.prototype.on" id="apidoc.element.video.js.EventTarget.prototype.on">
+        function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>on
+        <span class="apidocSignatureSpan">(type, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">on = function (type, fn) {
+  // Remove the addEventListener alias before calling Events.on
+  // so we don&#x27;t get into an infinite type loop
+  var ael = this.addEventListener;
+
+  this.addEventListener = function () {};
+  Events.on(this, type, fn);
+  this.addEventListener = ael;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var player = videojs(&#x27;my-player&#x27;, options, function onPlayerReady() {
+  videojs.log(&#x27;Your player is ready!&#x27;);
+
+  // In this context, `this` is the player that was created by Video.js.
+  this.play();
+
+  // How about an event listener?
+  this.<span class="apidocCodeKeywordSpan">on</span>(&#x27;ended&#x27;, function() {
+    videojs.log(&#x27;Awww...over so soon?!&#x27;);
+  });
+});
+```
+
+If you&#x27;re ready to dive in, the [Getting Started][getting-started] page and [documentation][docs] are the best places to go
+ for more information. If you get stuck, head over to our [Slack channel][slack-link]!
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.EventTarget.prototype.one" id="apidoc.element.video.js.EventTarget.prototype.one">
+        function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>one
+        <span class="apidocSignatureSpan">(type, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">one = function (type, fn) {
+  // Remove the addEventListener alialing Events.on
+  // so we don&#x27;t get into an infinite type loop
+  var ael = this.addEventListener;
+
+  this.addEventListener = function () {};
+  Events.one(this, type, fn);
+  this.addEventListener = ael;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+  Component.prototype.one = function one(first, second, third) {
+    var _this3 = this,
+  _arguments = arguments;
+
+    if (typeof first === &#x27;string&#x27; || Array.isArray(first)) {
+Events.<span class="apidocCodeKeywordSpan">one</span>(this.el_, first, Fn.bind(this, second));
+    } else {
+var target = first;
+var type = second;
+var fn = Fn.bind(this, third);
+
+var newFunc = function newFunc() {
+  _this3.off(target, type, newFunc);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.EventTarget.prototype.removeEventListener" id="apidoc.element.video.js.EventTarget.prototype.removeEventListener">
+        function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>removeEventListener
+        <span class="apidocSignatureSpan">(type, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">removeEventListener = function (type, fn) {
+  Events.off(this, type, fn);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.EventTarget.prototype.trigger" id="apidoc.element.video.js.EventTarget.prototype.trigger">
+        function <span class="apidocSignatureSpan">video.js.EventTarget.prototype.</span>trigger
+        <span class="apidocSignatureSpan">(event)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">trigger = function (event) {
+  var type = event.type || event;
+
+  if (typeof event === &#x27;string&#x27;) {
+    event = { type: type };
+  }
+  event = Events.fixEvent(event);
+
+  if (this.allowedEvents_[type] &#x26;&#x26; this[&#x27;on&#x27; + type]) {
+    this[&#x27;on&#x27; + type](event);
+  }
+
+  Events.trigger(this, event);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+     * @event CloseButton#close
+     * @type {EventTarget~Event}
+     *
+     * @property {boolean} [bubbles=false]
+     *           set to false so that the close event does not
+     *           bubble up to parents if there is no listener
+     */
+    this.<span class="apidocCodeKeywordSpan">trigger</span>({ type: &#x27;close&#x27;, bubbles: false });
+  };
+
+  return CloseButton;
+}(_button2[&#x27;default&#x27;]);
+
+_component2[&#x27;default&#x27;].registerComponent(&#x27;CloseButton&#x27;, CloseButton);
+exports[&#x27;default&#x27;] = CloseButton;
+...</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.TextTrack" id="apidoc.module.video.js.TextTrack">module video.js.TextTrack</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.TextTrack.TextTrack" id="apidoc.element.video.js.TextTrack.TextTrack">
+        function <span class="apidocSignatureSpan">video.js.</span>TextTrack
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TextTrack() {
+  var _this, _ret;
+
+  var options = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : {};
+
+  _classCallCheck(this, TextTrack);
+
+  if (!options.tech) {
+    throw new Error(&#x27;A tech was not provided.&#x27;);
+  }
+
+  var settings = (0, _mergeOptions2[&#x27;default&#x27;])(options, {
+    kind: _trackEnums.TextTrackKind[options.kind] || &#x27;subtitles&#x27;,
+    language: options.language || options.srclang || &#x27;&#x27;
+  });
+  var mode = _trackEnums.TextTrackMode[settings.mode] || &#x27;disabled&#x27;;
+  var default_ = settings[&#x27;default&#x27;];
+
+  if (settings.kind === &#x27;metadata&#x27; || settings.kind === &#x27;chapters&#x27;) {
+    mode = &#x27;hidden&#x27;;
+  }
+  // on IE8 this will be a document element
+  // for every other browser this will be a normal object
+  var tt = (_this = _possibleConstructorReturn(this, _Track.call(this, settings)), _this);
+
+  tt.tech_ = settings.tech;
+
+  if (browser.IS_IE8) {
+    for (var prop in TextTrack.prototype) {
+      if (prop !== &#x27;constructor&#x27;) {
+        tt[prop] = TextTrack.prototype[prop];
+      }
+    }
+  }
+
+  tt.cues_ = [];
+  tt.activeCues_ = [];
+
+  var cues = new _textTrackCueList2[&#x27;default&#x27;](tt.cues_);
+  var activeCues = new _textTrackCueList2[&#x27;default&#x27;](tt.activeCues_);
+  var changed = false;
+  var timeupdateHandler = Fn.bind(tt, function () {
+
+    // Accessing this.activeCues for the side-effects of updating itself
+    // due to it&#x27;s nature as a getter function. Do not remove or cues will
+    // stop updating!
+<span class="apidocCodeCommentSpan">    /* eslint-disable no-unused-expressions */
+</span>    this.activeCues;
+    /* eslint-enable no-unused-expressions */
+    if (changed) {
+      this.trigger(&#x27;cuechange&#x27;);
+      changed = false;
+    }
+  });
+
+  if (mode !== &#x27;disabled&#x27;) {
+    tt.tech_.ready(function () {
+      tt.tech_.on(&#x27;timeupdate&#x27;, timeupdateHandler);
+    }, true);
+  }
+
+  /**
+   * @member {boolean} default
+   *         If this track was set to be on or off by default. Cannot be changed after
+   *         creation.
+   *
+   * @readonly
+   */
+  Object.defineProperty(tt, &#x27;default&#x27;, {
+    get: function get() {
+      return default_;
+    },
+    set: function set() {}
+  });
+
+  /**
+   * @member {string} mode
+   *         Set the mode of this TextTrack to a valid {@link TextTrack~Mode}. Will
+   *         not be set if setting to an invalid mode.
+   *
+   * @fires TextTrack#modechange
+   */
+  Object.defineProperty(tt, &#x27;mode&#x27;, {
+    get: function get() {
+      return mode;
+    },
+    set: function set(newMode) {
+      var _this2 = this;
+
+      if (!_trackEnums.TextTrackMode[newMode]) {
+        return;
+      }
+      mode = newMode;
+      if (mode === &#x27;showing&#x27;) {
+        this.tech_.ready(function () {
+          _this2.tech_.on(&#x27;timeupdate&#x27;, timeupdateHandler);
+        }, true);
+      }
+      /**
+       * An event that fires when mode changes on this track. This allows
+       * the TextTrackList that holds this track to act accordingly.
+       *
+       * &#x3e; Note: This is not part of the spec!
+       *
+       * @event TextTrack#modechange
+       * @type {EventTarget~Event}
+       */
+      this.trigger(&#x27;modechange&#x27;);
+    }
+  });
+
+  /**
+   * @member {TextTrackCueList} cues
+   *         The text track cue list for this TextTrack.
+   */
+  Object.defineProperty(tt, &#x27;cues&#x27;, {
+    get: function get() {
+      if (!this.loaded_) {
+        return null;
+      }
+
+      return cues;
+    },
+    set: function set() {}
+  });
+
+  /**
+   * @member {TextTrackCueList} activeCues
+   *         The list text track cues that are currently active for this TextTrack.
+   */
+  Object.defineProperty(tt, &#x27;activeCues&#x27;, {
+    get: function get() {
+      if (!this.loaded_) {
+        return null;
+      }
+
+      // nothing to do
+      if (this.cues.length === 0) {
+        return activeCues;
+      }
+
+      var ct = this.tech_.currentTime();
+      var active = [];
+
+      for (var i = 0, l = this.cues.length; i &#x3c; l; i++) {
+        var cue = this.cues[i];
+
+        if (cue.startTime &#x3c;= ct &#x26;&#x26; cue.endTime &#x3e;= ct) {
+          active.push(cue);
+        } else if (cue.startTime === cue.endTime &#x26;&#x26; cue.startTime &#x3c;= ct &#x26;&#x26; cue.startTime + 0.5 &#x3e;= ct) {
+          active.push(cue);
+        }
+      }
+
+      chang ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.TextTrack.prototype" id="apidoc.module.video.js.TextTrack.prototype">module video.js.TextTrack.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.TextTrack.prototype.addCue" id="apidoc.element.video.js.TextTrack.prototype.addCue">
+        function <span class="apidocSignatureSpan">video.js.TextTrack.prototype.</span>addCue
+        <span class="apidocSignatureSpan">(originalCue)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function addCue(originalCue) {
+  var cue = originalCue;
+
+  if (_window2[&#x27;default&#x27;].vttjs &#x26;&#x26; !(originalCue instanceof _window2[&#x27;default&#x27;].vttjs.VTTCue)) {
+    cue = new _window2[&#x27;default&#x27;].vttjs.VTTCue(originalCue.startTime, originalCue.endTime, originalCue.text);
+
+    for (var prop in originalCue) {
+      if (!(prop in cue)) {
+        cue[prop] = originalCue[prop];
+      }
+    }
+
+    // make sure that `id` is copied over
+    cue.id = originalCue.id;
+  }
+
+  var tracks = this.tech_.textTracks();
+
+  if (tracks) {
+    for (var i = 0; i &#x3c; tracks.length; i++) {
+      if (tracks[i] !== this) {
+        tracks[i].removeCue(cue);
+      }
+    }
+  }
+
+  this.cues_.push(cue);
+  this.cues.setCues_(this.cues_);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.TextTrack.prototype.removeCue" id="apidoc.element.video.js.TextTrack.prototype.removeCue">
+        function <span class="apidocSignatureSpan">video.js.TextTrack.prototype.</span>removeCue
+        <span class="apidocSignatureSpan">(_removeCue)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function removeCue(_removeCue) {
+  var removed = false;
+
+  for (var i = 0, l = this.cues_.length; i &#x3c; l; i++) {
+    var cue = this.cues_[i];
+
+    if (cue === _removeCue) {
+      this.cues_.splice(i, 1);
+      removed = true;
+    }
+  }
+
+  if (removed) {
+    this.cues.setCues_(this.cues_);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.big_play_button" id="apidoc.module.video.js.big_play_button">module video.js.big_play_button</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.big_play_button.default" id="apidoc.element.video.js.big_play_button.default">
+        function <span class="apidocSignatureSpan">video.js.big_play_button.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function BigPlayButton() {
+  _classCallCheck(this, BigPlayButton);
+
+  return _possibleConstructorReturn(this, _Button.apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.button" id="apidoc.module.video.js.button">module video.js.button</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.button.default" id="apidoc.element.video.js.button.default">
+        function <span class="apidocSignatureSpan">video.js.button.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Button() {
+  _classCallCheck(this, Button);
+
+  return _possibleConstructorReturn(this, _ClickableComponent.apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.clickable_component" id="apidoc.module.video.js.clickable_component">module video.js.clickable_component</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.clickable_component.default" id="apidoc.element.video.js.clickable_component.default">
+        function <span class="apidocSignatureSpan">video.js.clickable_component.</span>default
+        <span class="apidocSignatureSpan">(player, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ClickableComponent(player, options) {
+  _classCallCheck(this, ClickableComponent);
+
+  var _this = _possibleConstructorReturn(this, _Component.call(this, player, options));
+
+  _this.emitTapEvents();
+
+  _this.enable();
+  return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.close_button" id="apidoc.module.video.js.close_button">module video.js.close_button</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.close_button.default" id="apidoc.element.video.js.close_button.default">
+        function <span class="apidocSignatureSpan">video.js.close_button.</span>default
+        <span class="apidocSignatureSpan">(player, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CloseButton(player, options) {
+  _classCallCheck(this, CloseButton);
+
+  var _this = _possibleConstructorReturn(this, _Button.call(this, player, options));
+
+  _this.controlText(options &#x26;&#x26; options.controlText || _this.localize(&#x27;Close&#x27;));
+  return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.component" id="apidoc.module.video.js.component">module video.js.component</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.component.default" id="apidoc.element.video.js.component.default">
+        function <span class="apidocSignatureSpan">video.js.component.</span>default
+        <span class="apidocSignatureSpan">(player, options, ready)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Component(player, options, ready) {
+  _classCallCheck(this, Component);
+
+  // The component might be the player itself and we can&#x27;t pass `this` to super
+  if (!player &#x26;&#x26; this.play) {
+    this.player_ = player = this; // eslint-disable-line
+  } else {
+    this.player_ = player;
+  }
+
+  // Make a copy of prototype.options_ to protect against overriding defaults
+  this.options_ = (0, _mergeOptions2[&#x27;default&#x27;])({}, this.options_);
+
+  // Updated options with supplied options
+  options = this.options_ = (0, _mergeOptions2[&#x27;default&#x27;])(this.options_, options);
+
+  // Get ID from options or options element if one is supplied
+  this.id_ = options.id || options.el &#x26;&#x26; options.el.id;
+
+  // If there was no ID from the options, generate one
+  if (!this.id_) {
+    // Don&#x27;t require the player ID function in the case of mock players
+    var id = player &#x26;&#x26; player.id &#x26;&#x26; player.id() || &#x27;no_player&#x27;;
+
+    this.id_ = id + &#x27;_component_&#x27; + Guid.newGUID();
+  }
+
+  this.name_ = options.name || null;
+
+  // Create element if one wasn&#x27;t provided in options
+  if (options.el) {
+    this.el_ = options.el;
+  } else if (options.createEl !== false) {
+    this.el_ = this.createEl();
+  }
+
+  this.children_ = [];
+  this.childIndex_ = {};
+  this.childNameIndex_ = {};
+
+  // Add any child components in options
+  if (options.initChildren !== false) {
+    this.initChildren();
+  }
+
+  this.ready(ready);
+  // Don&#x27;t want to trigger ready here or it will before init is actually
+  // finished for all children that run this constructor
+
+  if (options.reportTouchActivity !== false) {
+    this.enableTouchActivity();
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.error_display" id="apidoc.module.video.js.error_display">module video.js.error_display</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.error_display.default" id="apidoc.element.video.js.error_display.default">
+        function <span class="apidocSignatureSpan">video.js.error_display.</span>default
+        <span class="apidocSignatureSpan">(player, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ErrorDisplay(player, options) {
+  _classCallCheck(this, ErrorDisplay);
+
+  var _this = _possibleConstructorReturn(this, _ModalDialog.call(this, player, options));
+
+  _this.on(player, &#x27;error&#x27;, _this.open);
+  return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.event_target" id="apidoc.module.video.js.event_target">module video.js.event_target</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.event_target.default" id="apidoc.element.video.js.event_target.default">
+        function <span class="apidocSignatureSpan">video.js.event_target.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function EventTarget() {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.extend" id="apidoc.module.video.js.extend">module video.js.extend</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.extend.default" id="apidoc.element.video.js.extend.default">
+        function <span class="apidocSignatureSpan">video.js.extend.</span>default
+        <span class="apidocSignatureSpan">(superClass)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function extendFn(superClass) {
+  var subClassMethods = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : {};
+
+  var subClass = function subClass() {
+    superClass.apply(this, arguments);
+  };
+
+  var methods = {};
+
+  if ((0, _obj.isObject)(subClassMethods)) {
+    if (typeof subClassMethods.init === &#x27;function&#x27;) {
+      _log2[&#x27;default&#x27;].warn(&#x27;Constructor logic via init() is deprecated; please use constructor() instead.&#x27;);
+      subClassMethods.constructor = subClassMethods.init;
+    }
+    if (subClassMethods.constructor !== Object.prototype.constructor) {
+      subClass = subClassMethods.constructor;
+    }
+    methods = subClassMethods;
+  } else if (typeof subClassMethods === &#x27;function&#x27;) {
+    subClass = subClassMethods;
+  }
+
+  _inherits(subClass, superClass);
+
+  // Extend subObj&#x27;s prototype with functions and other properties from props
+  for (var name in methods) {
+    if (methods.hasOwnProperty(name)) {
+      subClass.prototype[name] = methods[name];
+    }
+  }
+
+  return subClass;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.loading_spinner" id="apidoc.module.video.js.loading_spinner">module video.js.loading_spinner</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.loading_spinner.default" id="apidoc.element.video.js.loading_spinner.default">
+        function <span class="apidocSignatureSpan">video.js.loading_spinner.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function LoadingSpinner() {
+  _classCallCheck(this, LoadingSpinner);
+
+  return _possibleConstructorReturn(this, _Component.apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.log" id="apidoc.module.video.js.log">module video.js.log</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.log.log" id="apidoc.element.video.js.log.log">
+        function <span class="apidocSignatureSpan">video.js.</span>log
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function log() {
+  for (var _len = arguments.length, args = Array(_len), _key = 0; _key &#x3c; _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  logByType(&#x27;log&#x27;, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+The `videojs` function also accepts an `options` object and a callback to be invoked
+ when the player is ready:
+
+```js
+var options = {};
+
+var player = videojs(&#x27;my-player&#x27;, options, function onPlayerReady() {
+videojs.<span class="apidocCodeKeywordSpan">log</span>(&#x27;Your player is ready!&#x27;);
+
+// In this context, `this` is the player that was created by Video.js.
+this.play();
+
+// How about an event listener?
+this.on(&#x27;ended&#x27;, function() {
+  videojs.log(&#x27;Awww...over so soon?!&#x27;);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.log.error" id="apidoc.element.video.js.log.error">
+        function <span class="apidocSignatureSpan">video.js.log.</span>error
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">error = function () {
+  for (var _len2 = arguments.length, args = Array(_len2), _key2 = 0; _key2 &#x3c; _len2; _key2++) {
+    args[_key2] = arguments[_key2];
+  }
+
+  return logByType(&#x27;error&#x27;, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+    props = (0, _obj.assign)({
+className: this.buildCSSClass(),
+tabIndex: 0
+    }, props);
+
+    if (tag === &#x27;button&#x27;) {
+_log2[&#x27;default&#x27;].<span class="apidocCodeKeywordSpan">error</span>(&#x27;Creating a ClickableComponent with an HTML element
+ of &#x27; + tag + &#x27; is not supported; use a Button instead.&#x27;);
+    }
+
+    // Add ARIA attributes for clickable element which is not a native HTML button
+    attributes = (0, _obj.assign)({
+&#x27;role&#x27;: &#x27;button&#x27;,
+
+// let the screen reader user know that the text of the element may change
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.log.warn" id="apidoc.element.video.js.log.warn">
+        function <span class="apidocSignatureSpan">video.js.log.</span>warn
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">warn = function () {
+  for (var _len3 = arguments.length, args = Array(_len3), _key3 = 0; _key3 &#x3c; _len3; _key3++) {
+    args[_key3] = arguments[_key3];
+  }
+
+  return logByType(&#x27;warn&#x27;, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    var attributes = arguments.length &#x3e; 2 &#x26;&#x26; arguments[2] !== undefined ? arguments[2] : {};
+
+    props = (0, _obj.assign)({
+className: this.buildCSSClass()
+    }, props);
+
+    if (tag !== &#x27;button&#x27;) {
+_log2[&#x27;default&#x27;].<span class="apidocCodeKeywordSpan">warn</span>(&#x27;Creating a Button with an HTML element of &#x27
+; + tag + &#x27; is deprecated; use ClickableComponent instead.&#x27;);
+
+// Add properties for clickable element which is not a native HTML button
+props = (0, _obj.assign)({
+  tabIndex: 0
+}, props);
+
+// Add ARIA attributes for clickable element which is not a native HTML button
+...</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.media_error" id="apidoc.module.video.js.media_error">module video.js.media_error</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.media_error.default" id="apidoc.element.video.js.media_error.default">
+        function <span class="apidocSignatureSpan">video.js.media_error.</span>default
+        <span class="apidocSignatureSpan">(value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function MediaError(value) {
+
+  // Allow redundant calls to this constructor to avoid having `instanceof`
+  // checks peppered around the code.
+  if (value instanceof MediaError) {
+    return value;
+  }
+
+  if (typeof value === &#x27;number&#x27;) {
+    this.code = value;
+  } else if (typeof value === &#x27;string&#x27;) {
+    // default code is zero, so this is a custom error
+    this.message = value;
+  } else if ((0, _obj.isObject)(value)) {
+
+    // We assign the `code` property manually because native `MediaError` objects
+    // do not expose it as an own/enumerable property of the object.
+    if (typeof value.code === &#x27;number&#x27;) {
+      this.code = value.code;
+    }
+
+    (0, _obj.assign)(this, value);
+  }
+
+  if (!this.message) {
+    this.message = MediaError.defaultMessages[this.code] || &#x27;&#x27;;
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.modal_dialog" id="apidoc.module.video.js.modal_dialog">module video.js.modal_dialog</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.modal_dialog.default" id="apidoc.element.video.js.modal_dialog.default">
+        function <span class="apidocSignatureSpan">video.js.modal_dialog.</span>default
+        <span class="apidocSignatureSpan">(player, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ModalDialog(player, options) {
+  _classCallCheck(this, ModalDialog);
+
+  var _this = _possibleConstructorReturn(this, _Component.call(this, player, options));
+
+  _this.opened_ = _this.hasBeenOpened_ = _this.hasBeenFilled_ = false;
+
+  _this.closeable(!_this.options_.uncloseable);
+  _this.content(_this.options_.content);
+
+  // Make sure the contentEl is defined AFTER any children are initialized
+  // because we only want the contents of the modal in the contentEl
+  // (not the UI elements like the close button).
+  _this.contentEl_ = Dom.createEl(&#x27;div&#x27;, {
+    className: MODAL_CLASS_NAME + &#x27;-content&#x27;
+  }, {
+    role: &#x27;document&#x27;
+  });
+
+  _this.descEl_ = Dom.createEl(&#x27;p&#x27;, {
+    className: MODAL_CLASS_NAME + &#x27;-description vjs-offscreen&#x27;,
+    id: _this.el().getAttribute(&#x27;aria-describedby&#x27;)
+  });
+
+  Dom.textContent(_this.descEl_, _this.description());
+  _this.el_.appendChild(_this.descEl_);
+  _this.el_.appendChild(_this.contentEl_);
+  return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.player" id="apidoc.module.video.js.player">module video.js.player</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.player.default" id="apidoc.element.video.js.player.default">
+        function <span class="apidocSignatureSpan">video.js.player.</span>default
+        <span class="apidocSignatureSpan">(tag, options, ready)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Player(tag, options, ready) {
+  _classCallCheck(this, Player);
+
+  // Make sure tag ID exists
+  tag.id = tag.id || &#x27;vjs_video_&#x27; + Guid.newGUID();
+
+  // Set Options
+  // The options argument overrides options set in the video tag
+  // which overrides globally set options.
+  // This latter part coincides with the load order
+  // (tag must exist before Player)
+  options = (0, _obj.assign)(Player.getTagSettings(tag), options);
+
+  // Delay the initialization of children because we need to set up
+  // player properties first, and can&#x27;t use `this` before `super()`
+  options.initChildren = false;
+
+  // Same with creating the element
+  options.createEl = false;
+
+  // we don&#x27;t want the player to report touch activity on itself
+  // see enableTouchActivity in Component
+  options.reportTouchActivity = false;
+
+  // If language is not set, get the closest lang attribute
+  if (!options.language) {
+    if (typeof tag.closest === &#x27;function&#x27;) {
+      var closest = tag.closest(&#x27;[lang]&#x27;);
+
+      if (closest) {
+        options.language = closest.getAttribute(&#x27;lang&#x27;);
+      }
+    } else {
+      var element = tag;
+
+      while (element &#x26;&#x26; element.nodeType === 1) {
+        if (Dom.getElAttributes(element).hasOwnProperty(&#x27;lang&#x27;)) {
+          options.language = element.getAttribute(&#x27;lang&#x27;);
+          break;
+        }
+        element = element.parentNode;
+      }
+    }
+  }
+
+  // Run base component initializing with new options
+
+  // if the global option object was accidentally blown away by
+  // someone, bail early with an informative error
+  var _this = _possibleConstructorReturn(this, _Component.call(this, null, options, ready));
+
+  if (!_this.options_ || !_this.options_.techOrder || !_this.options_.techOrder.length) {
+    throw new Error(&#x27;No techOrder specified. Did you overwrite &#x27; + &#x27;videojs.options instead of just changing the &#x27; + &#x27;properties
+ you want to override?&#x27;);
+  }
+
+  // Store the original tag used to set options
+  _this.tag = tag;
+
+  // Store the tag attributes used to restore html5 element
+  _this.tagAttributes = tag &#x26;&#x26; Dom.getElAttributes(tag);
+
+  // Update current language
+  _this.language(_this.options_.language);
+
+  // Update Supported Languages
+  if (options.languages) {
+    // Normalise player option languages to lowercase
+    var languagesToLower = {};
+
+    Object.getOwnPropertyNames(options.languages).forEach(function (name) {
+      languagesToLower[name.toLowerCase()] = options.languages[name];
+    });
+    _this.languages_ = languagesToLower;
+  } else {
+    _this.languages_ = Player.prototype.options_.languages;
+  }
+
+  // Cache for video property values.
+  _this.cache_ = {};
+
+  // Set poster
+  _this.poster_ = options.poster || &#x27;&#x27;;
+
+  // Set controls
+  _this.controls_ = !!options.controls;
+
+  // Original tag settings stored in options
+  // now remove immediately so native controls don&#x27;t flash.
+  // May be turned back on by HTML5 tech if nativeControlsForTouch is true
+  tag.controls = false;
+
+<span class="apidocCodeCommentSpan">  /*
+   * Store the internal state of scrubbing
+   *
+   * @private
+   * @return {Boolean} True if the user is scrubbing
+   */
+</span>  _this.scrubbing_ = false;
+
+  _this.el_ = _this.createEl();
+
+  // We also want to pass the original player options to each component and plugin
+  // as well so they don&#x27;t need to reach back into the player for options later.
+  // We also need to do another copy of this.options_ so we don&#x27;t end up with
+  // an infinite loop.
+  var playerOptionsCopy = (0, _mergeOptions2[&#x27;default&#x27;])(_this.options_);
+
+  // Load plugins
+  if (options.plugins) {
+    var plugins = options.plugins;
+
+    Object.getOwnPropertyNames(plugins).forEach(function (name) {
+      if (typeof this[name] === &#x27;function&#x27;) {
+        this[name](plugins[name]);
+      } else {
+        _log2[&#x27;default&#x27;].error(&#x27;Unable to find plugin:&#x27;, name);
+      }
+    }, _this);
+  }
+
+  _this.options_.playerOptions = playerOptionsCopy;
+
+  _this.initChildren();
+
+  // Set isAudio based on whether or not an audio tag was used
+  _this.isAudio(tag.nodeName.toLowerCase() === &#x27;audio&#x27;);
+
+  // Update controls className. Can&#x27;t do this when the controls are initially
+  // set b ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.plugins" id="apidoc.module.video.js.plugins">module video.js.plugins</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.plugins.default" id="apidoc.element.video.js.plugins.default">
+        function <span class="apidocSignatureSpan">video.js.plugins.</span>default
+        <span class="apidocSignatureSpan">(name, init)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function plugin(name, init) {
+  _player2[&#x27;default&#x27;].prototype[name] = init;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.poster_image" id="apidoc.module.video.js.poster_image">module video.js.poster_image</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.poster_image.default" id="apidoc.element.video.js.poster_image.default">
+        function <span class="apidocSignatureSpan">video.js.poster_image.</span>default
+        <span class="apidocSignatureSpan">(player, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function PosterImage(player, options) {
+  _classCallCheck(this, PosterImage);
+
+  var _this = _possibleConstructorReturn(this, _ClickableComponent.call(this, player, options));
+
+  _this.update();
+  player.on(&#x27;posterchange&#x27;, Fn.bind(_this, _this.update));
+  return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.setup" id="apidoc.module.video.js.setup">module video.js.setup</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.setup.autoSetup" id="apidoc.element.video.js.setup.autoSetup">
+        function <span class="apidocSignatureSpan">video.js.setup.</span>autoSetup
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function autoSetup() {
+
+  // Protect against breakage in non-browser environments.
+  if (!Dom.isReal()) {
+    return;
+  }
+
+  // One day, when we stop supporting IE8, go back to this, but in the meantime...*hack hack hack*
+  // var vids = Array.prototype.slice.call(document.getElementsByTagName(&#x27;video&#x27;));
+  // var audios = Array.prototype.slice.call(document.getElementsByTagName(&#x27;audio&#x27;));
+  // var mediaEls = vids.concat(audios);
+
+  // Because IE8 doesn&#x27;t support calling slice on a node list, we need to loop
+  // through each list of elements to build up a new, combined list of elements.
+  var vids = _document2[&#x27;default&#x27;].getElementsByTagName(&#x27;video&#x27;);
+  var audios = _document2[&#x27;default&#x27;].getElementsByTagName(&#x27;audio&#x27;);
+  var mediaEls = [];
+
+  if (vids &#x26;&#x26; vids.length &#x3e; 0) {
+    for (var i = 0, e = vids.length; i &#x3c; e; i++) {
+      mediaEls.push(vids[i]);
+    }
+  }
+
+  if (audios &#x26;&#x26; audios.length &#x3e; 0) {
+    for (var _i = 0, _e = audios.length; _i &#x3c; _e; _i++) {
+      mediaEls.push(audios[_i]);
+    }
+  }
+
+  // Check if any media elements exist
+  if (mediaEls &#x26;&#x26; mediaEls.length &#x3e; 0) {
+
+    for (var _i2 = 0, _e2 = mediaEls.length; _i2 &#x3c; _e2; _i2++) {
+      var mediaEl = mediaEls[_i2];
+
+      // Check if element exists, has getAttribute func.
+      // IE seems to consider typeof el.getAttribute == &#x27;object&#x27; instead of
+      // &#x27;function&#x27; like expected, at least when loading the player immediately.
+      if (mediaEl &#x26;&#x26; mediaEl.getAttribute) {
+
+        // Make sure this player hasn&#x27;t already been set up.
+        if (mediaEl.player === undefined) {
+          var options = mediaEl.getAttribute(&#x27;data-setup&#x27;);
+
+          // Check if data-setup attr exists.
+          // We only auto-setup if they&#x27;ve added the data-setup attr.
+          if (options !== null) {
+            // Create new video.js instance.
+            videojs(mediaEl);
+          }
+        }
+
+        // If getAttribute isn&#x27;t defined, we need to wait for the DOM.
+      } else {
+        autoSetupTimeout(1);
+        break;
+      }
+    }
+
+    // No videos were found, so keep looping unless page is finished loading.
+  } else if (!_windowLoaded) {
+    autoSetupTimeout(1);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.setup.autoSetupTimeout" id="apidoc.element.video.js.setup.autoSetupTimeout">
+        function <span class="apidocSignatureSpan">video.js.setup.</span>autoSetupTimeout
+        <span class="apidocSignatureSpan">(wait, vjs)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function autoSetupTimeout(wait, vjs) {
+  if (vjs) {
+    videojs = vjs;
+  }
+
+  _window2[&#x27;default&#x27;].setTimeout(autoSetup, wait);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.setup.hasLoaded" id="apidoc.element.video.js.setup.hasLoaded">
+        function <span class="apidocSignatureSpan">video.js.setup.</span>hasLoaded
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function hasLoaded() {
+  return _windowLoaded;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.video.js.xhr" id="apidoc.module.video.js.xhr">module video.js.xhr</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.xhr.xhr" id="apidoc.element.video.js.xhr.xhr">
+        function <span class="apidocSignatureSpan">video.js.</span>xhr
+        <span class="apidocSignatureSpan">(uri, options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createXHR(uri, options, callback) {
+    options = initParams(uri, options, callback)
+    return _createXHR(options)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.xhr.XMLHttpRequest" id="apidoc.element.video.js.xhr.XMLHttpRequest">
+        function <span class="apidocSignatureSpan">video.js.xhr.</span>XMLHttpRequest
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function noop() {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.xhr.del" id="apidoc.element.video.js.xhr.del">
+        function <span class="apidocSignatureSpan">video.js.xhr.</span>del
+        <span class="apidocSignatureSpan">(uri, options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">del = function (uri, options, callback) {
+    options = initParams(uri, options, callback)
+    options.method = method.toUpperCase()
+    return _createXHR(options)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.xhr.get" id="apidoc.element.video.js.xhr.get">
+        function <span class="apidocSignatureSpan">video.js.xhr.</span>get
+        <span class="apidocSignatureSpan">(uri, options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">get = function (uri, options, callback) {
+    options = initParams(uri, options, callback)
+    options.method = method.toUpperCase()
+    return _createXHR(options)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.xhr.head" id="apidoc.element.video.js.xhr.head">
+        function <span class="apidocSignatureSpan">video.js.xhr.</span>head
+        <span class="apidocSignatureSpan">(uri, options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">head = function (uri, options, callback) {
+    options = initParams(uri, options, callback)
+    options.method = method.toUpperCase()
+    return _createXHR(options)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.xhr.patch" id="apidoc.element.video.js.xhr.patch">
+        function <span class="apidocSignatureSpan">video.js.xhr.</span>patch
+        <span class="apidocSignatureSpan">(uri, options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">patch = function (uri, options, callback) {
+    options = initParams(uri, options, callback)
+    options.method = method.toUpperCase()
+    return _createXHR(options)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.xhr.post" id="apidoc.element.video.js.xhr.post">
+        function <span class="apidocSignatureSpan">video.js.xhr.</span>post
+        <span class="apidocSignatureSpan">(uri, options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">post = function (uri, options, callback) {
+    options = initParams(uri, options, callback)
+    options.method = method.toUpperCase()
+    return _createXHR(options)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.video.js.xhr.put" id="apidoc.element.video.js.xhr.put">
+        function <span class="apidocSignatureSpan">video.js.xhr.</span>put
+        <span class="apidocSignatureSpan">(uri, options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">put = function (uri, options, callback) {
+    options = initParams(uri, options, callback)
+    options.method = method.toUpperCase()
+    return _createXHR(options)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
