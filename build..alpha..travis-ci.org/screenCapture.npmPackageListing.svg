@@ -1,220 +1,220 @@
 <svg height="3470" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="3470" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-03 17:09:42 +0000  6147813 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-03 17:09:42 +0000   110318 byte  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-03 17:09:42 +0000      578 byte  LICENSE</tspan>
-<tspan x="10" y="74">  3.  2017-04-03 17:09:42 +0000     4240 byte  README.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-03 17:09:42 +0000    46314 byte  dist/alt/video-js-cdn.css</tspan>
-<tspan x="10" y="106">  5.  2017-04-03 17:09:42 +0000    39225 byte  dist/alt/video-js-cdn.min.css</tspan>
-<tspan x="10" y="122">  6.  2017-04-03 17:09:42 +0000   804664 byte  dist/alt/video.novtt.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-03 17:09:42 +0000   227302 byte  dist/alt/video.novtt.min.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-03 17:09:42 +0000     5396 byte  dist/examples/elephantsdream/captions.ar.vtt</tspan>
-<tspan x="10" y="170">  9.  2017-04-03 17:09:42 +0000     4476 byte  dist/examples/elephantsdream/captions.en.vtt</tspan>
-<tspan x="10" y="186"> 10.  2017-04-03 17:09:42 +0000     4836 byte  dist/examples/elephantsdream/captions.ja.vtt</tspan>
-<tspan x="10" y="202"> 11.  2017-04-03 17:09:42 +0000     5959 byte  dist/examples/elephantsdream/captions.ru.vtt</tspan>
-<tspan x="10" y="218"> 12.  2017-04-03 17:09:42 +0000     4742 byte  dist/examples/elephantsdream/captions.sv.vtt</tspan>
-<tspan x="10" y="234"> 13.  2017-04-03 17:09:42 +0000      748 byte  dist/examples/elephantsdream/chapters.en.vtt</tspan>
-<tspan x="10" y="250"> 14.  2017-04-03 17:09:42 +0000     8208 byte  dist/examples/elephantsdream/descriptions.en.vtt</tspan>
-<tspan x="10" y="266"> 15.  2017-04-03 17:09:42 +0000     2239 byte  dist/examples/elephantsdream/index.html</tspan>
-<tspan x="10" y="282"> 16.  2017-04-03 17:09:42 +0000      696 byte  dist/examples/shared/example-captions.vtt</tspan>
-<tspan x="10" y="298"> 17.  2017-04-03 17:09:42 +0000     1267 byte  dist/examples/simple-embed/index.html</tspan>
-<tspan x="10" y="314"> 18.  2017-04-03 17:09:42 +0000     5900 byte  dist/font/VideoJS.eot</tspan>
-<tspan x="10" y="330"> 19.  2017-04-03 17:09:42 +0000    26660 byte  dist/font/VideoJS.svg</tspan>
-<tspan x="10" y="346"> 20.  2017-04-03 17:09:42 +0000     5736 byte  dist/font/VideoJS.ttf</tspan>
-<tspan x="10" y="362"> 21.  2017-04-03 17:09:42 +0000     3704 byte  dist/font/VideoJS.woff</tspan>
-<tspan x="10" y="378"> 22.  2017-04-03 17:09:42 +0000    96609 byte  dist/ie8/videojs-ie8.js</tspan>
-<tspan x="10" y="394"> 23.  2017-04-03 17:09:42 +0000    27279 byte  dist/ie8/videojs-ie8.min.js</tspan>
-<tspan x="10" y="410"> 24.  2017-04-03 17:09:42 +0000     2294 byte  dist/lang/ar.js</tspan>
-<tspan x="10" y="426"> 25.  2017-04-03 17:09:42 +0000     1336 byte  dist/lang/ba.js</tspan>
-<tspan x="10" y="442"> 26.  2017-04-03 17:09:42 +0000     1926 byte  dist/lang/bg.js</tspan>
-<tspan x="10" y="458"> 27.  2017-04-03 17:09:42 +0000     1474 byte  dist/lang/ca.js</tspan>
-<tspan x="10" y="474"> 28.  2017-04-03 17:09:42 +0000     1292 byte  dist/lang/cs.js</tspan>
-<tspan x="10" y="490"> 29.  2017-04-03 17:09:42 +0000     1405 byte  dist/lang/da.js</tspan>
-<tspan x="10" y="506"> 30.  2017-04-03 17:09:42 +0000     2431 byte  dist/lang/de.js</tspan>
-<tspan x="10" y="522"> 31.  2017-04-03 17:09:42 +0000     3582 byte  dist/lang/el.js</tspan>
-<tspan x="10" y="538"> 32.  2017-04-03 17:09:42 +0000     2193 byte  dist/lang/en.js</tspan>
-<tspan x="10" y="554"> 33.  2017-04-03 17:09:42 +0000     1503 byte  dist/lang/es.js</tspan>
-<tspan x="10" y="570"> 34.  2017-04-03 17:09:42 +0000     1354 byte  dist/lang/fa.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-03 17:09:42 +0000     1356 byte  dist/lang/fi.js</tspan>
-<tspan x="10" y="602"> 36.  2017-04-03 17:09:42 +0000     2467 byte  dist/lang/fr.js</tspan>
-<tspan x="10" y="618"> 37.  2017-04-03 17:09:42 +0000     1336 byte  dist/lang/hr.js</tspan>
-<tspan x="10" y="634"> 38.  2017-04-03 17:09:42 +0000     1410 byte  dist/lang/hu.js</tspan>
-<tspan x="10" y="650"> 39.  2017-04-03 17:09:42 +0000     1454 byte  dist/lang/it.js</tspan>
-<tspan x="10" y="666"> 40.  2017-04-03 17:09:42 +0000     1643 byte  dist/lang/ja.js</tspan>
-<tspan x="10" y="682"> 41.  2017-04-03 17:09:42 +0000     1517 byte  dist/lang/ko.js</tspan>
-<tspan x="10" y="698"> 42.  2017-04-03 17:09:42 +0000     1401 byte  dist/lang/nb.js</tspan>
-<tspan x="10" y="714"> 43.  2017-04-03 17:09:42 +0000     2091 byte  dist/lang/nl.js</tspan>
-<tspan x="10" y="730"> 44.  2017-04-03 17:09:42 +0000     1379 byte  dist/lang/nn.js</tspan>
-<tspan x="10" y="746"> 45.  2017-04-03 17:09:42 +0000     2000 byte  dist/lang/pl.js</tspan>
-<tspan x="10" y="762"> 46.  2017-04-03 17:09:42 +0000     1339 byte  dist/lang/pt-BR.js</tspan>
-<tspan x="10" y="778"> 47.  2017-04-03 17:09:42 +0000     3101 byte  dist/lang/ru.js</tspan>
-<tspan x="10" y="794"> 48.  2017-04-03 17:09:42 +0000     1336 byte  dist/lang/sr.js</tspan>
-<tspan x="10" y="810"> 49.  2017-04-03 17:09:42 +0000     1396 byte  dist/lang/sv.js</tspan>
-<tspan x="10" y="826"> 50.  2017-04-03 17:09:42 +0000     1740 byte  dist/lang/tr.js</tspan>
-<tspan x="10" y="842"> 51.  2017-04-03 17:09:42 +0000     3147 byte  dist/lang/uk.js</tspan>
-<tspan x="10" y="858"> 52.  2017-04-03 17:09:42 +0000     1439 byte  dist/lang/vi.js</tspan>
-<tspan x="10" y="874"> 53.  2017-04-03 17:09:42 +0000     1363 byte  dist/lang/zh-CN.js</tspan>
-<tspan x="10" y="890"> 54.  2017-04-03 17:09:42 +0000     2026 byte  dist/lang/zh-TW.js</tspan>
-<tspan x="10" y="906"> 55.  2017-04-03 17:09:42 +0000  2601998 byte  dist/video-js-5.19.0.zip</tspan>
-<tspan x="10" y="922"> 56.  2017-04-03 17:09:42 +0000    46510 byte  dist/video-js.css</tspan>
-<tspan x="10" y="938"> 57.  2017-04-03 17:09:42 +0000    39368 byte  dist/video-js.min.css</tspan>
-<tspan x="10" y="954"> 58.  2017-04-03 17:09:42 +0000    17117 byte  dist/video-js.swf</tspan>
-<tspan x="10" y="970"> 59.  2017-04-03 17:09:42 +0000   866046 byte  dist/video.js</tspan>
-<tspan x="10" y="986"> 60.  2017-04-03 17:09:42 +0000   248308 byte  dist/video.min.js</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-03 17:09:42 +0000     3982 byte  es5/big-play-button.js</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-03 17:09:42 +0000     6852 byte  es5/button.js</tspan>
-<tspan x="10" y="1034"> 63.  2017-04-03 17:09:42 +0000    11061 byte  es5/clickable-component.js</tspan>
-<tspan x="10" y="1050"> 64.  2017-04-03 17:09:42 +0000     4234 byte  es5/close-button.js</tspan>
-<tspan x="10" y="1066"> 65.  2017-04-03 17:09:42 +0000    57073 byte  es5/component.js</tspan>
-<tspan x="10" y="1082"> 66.  2017-04-03 17:09:42 +0000     4823 byte  es5/control-bar/audio-track-controls/audio-track-\</tspan>
+<tspan x="10" y="26">  0.  2017-04-03 17:11:07 +0000  6147813 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-03 17:11:07 +0000   110318 byte  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-03 17:11:07 +0000      578 byte  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-03 17:11:07 +0000     4240 byte  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-03 17:11:07 +0000    46314 byte  dist/alt/video-js-cdn.css</tspan>
+<tspan x="10" y="106">  5.  2017-04-03 17:11:07 +0000    39225 byte  dist/alt/video-js-cdn.min.css</tspan>
+<tspan x="10" y="122">  6.  2017-04-03 17:11:07 +0000   804664 byte  dist/alt/video.novtt.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-03 17:11:07 +0000   227302 byte  dist/alt/video.novtt.min.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-03 17:11:07 +0000     5396 byte  dist/examples/elephantsdream/captions.ar.vtt</tspan>
+<tspan x="10" y="170">  9.  2017-04-03 17:11:07 +0000     4476 byte  dist/examples/elephantsdream/captions.en.vtt</tspan>
+<tspan x="10" y="186"> 10.  2017-04-03 17:11:07 +0000     4836 byte  dist/examples/elephantsdream/captions.ja.vtt</tspan>
+<tspan x="10" y="202"> 11.  2017-04-03 17:11:07 +0000     5959 byte  dist/examples/elephantsdream/captions.ru.vtt</tspan>
+<tspan x="10" y="218"> 12.  2017-04-03 17:11:07 +0000     4742 byte  dist/examples/elephantsdream/captions.sv.vtt</tspan>
+<tspan x="10" y="234"> 13.  2017-04-03 17:11:07 +0000      748 byte  dist/examples/elephantsdream/chapters.en.vtt</tspan>
+<tspan x="10" y="250"> 14.  2017-04-03 17:11:07 +0000     8208 byte  dist/examples/elephantsdream/descriptions.en.vtt</tspan>
+<tspan x="10" y="266"> 15.  2017-04-03 17:11:07 +0000     2239 byte  dist/examples/elephantsdream/index.html</tspan>
+<tspan x="10" y="282"> 16.  2017-04-03 17:11:07 +0000      696 byte  dist/examples/shared/example-captions.vtt</tspan>
+<tspan x="10" y="298"> 17.  2017-04-03 17:11:07 +0000     1267 byte  dist/examples/simple-embed/index.html</tspan>
+<tspan x="10" y="314"> 18.  2017-04-03 17:11:07 +0000     5900 byte  dist/font/VideoJS.eot</tspan>
+<tspan x="10" y="330"> 19.  2017-04-03 17:11:07 +0000    26660 byte  dist/font/VideoJS.svg</tspan>
+<tspan x="10" y="346"> 20.  2017-04-03 17:11:07 +0000     5736 byte  dist/font/VideoJS.ttf</tspan>
+<tspan x="10" y="362"> 21.  2017-04-03 17:11:07 +0000     3704 byte  dist/font/VideoJS.woff</tspan>
+<tspan x="10" y="378"> 22.  2017-04-03 17:11:07 +0000    96609 byte  dist/ie8/videojs-ie8.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-03 17:11:07 +0000    27279 byte  dist/ie8/videojs-ie8.min.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-03 17:11:07 +0000     2294 byte  dist/lang/ar.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-03 17:11:07 +0000     1336 byte  dist/lang/ba.js</tspan>
+<tspan x="10" y="442"> 26.  2017-04-03 17:11:07 +0000     1926 byte  dist/lang/bg.js</tspan>
+<tspan x="10" y="458"> 27.  2017-04-03 17:11:07 +0000     1474 byte  dist/lang/ca.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-03 17:11:07 +0000     1292 byte  dist/lang/cs.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-03 17:11:07 +0000     1405 byte  dist/lang/da.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-03 17:11:07 +0000     2431 byte  dist/lang/de.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-03 17:11:07 +0000     3582 byte  dist/lang/el.js</tspan>
+<tspan x="10" y="538"> 32.  2017-04-03 17:11:07 +0000     2193 byte  dist/lang/en.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-03 17:11:07 +0000     1503 byte  dist/lang/es.js</tspan>
+<tspan x="10" y="570"> 34.  2017-04-03 17:11:07 +0000     1354 byte  dist/lang/fa.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-03 17:11:07 +0000     1356 byte  dist/lang/fi.js</tspan>
+<tspan x="10" y="602"> 36.  2017-04-03 17:11:07 +0000     2467 byte  dist/lang/fr.js</tspan>
+<tspan x="10" y="618"> 37.  2017-04-03 17:11:07 +0000     1336 byte  dist/lang/hr.js</tspan>
+<tspan x="10" y="634"> 38.  2017-04-03 17:11:07 +0000     1410 byte  dist/lang/hu.js</tspan>
+<tspan x="10" y="650"> 39.  2017-04-03 17:11:07 +0000     1454 byte  dist/lang/it.js</tspan>
+<tspan x="10" y="666"> 40.  2017-04-03 17:11:07 +0000     1643 byte  dist/lang/ja.js</tspan>
+<tspan x="10" y="682"> 41.  2017-04-03 17:11:07 +0000     1517 byte  dist/lang/ko.js</tspan>
+<tspan x="10" y="698"> 42.  2017-04-03 17:11:07 +0000     1401 byte  dist/lang/nb.js</tspan>
+<tspan x="10" y="714"> 43.  2017-04-03 17:11:07 +0000     2091 byte  dist/lang/nl.js</tspan>
+<tspan x="10" y="730"> 44.  2017-04-03 17:11:07 +0000     1379 byte  dist/lang/nn.js</tspan>
+<tspan x="10" y="746"> 45.  2017-04-03 17:11:07 +0000     2000 byte  dist/lang/pl.js</tspan>
+<tspan x="10" y="762"> 46.  2017-04-03 17:11:07 +0000     1339 byte  dist/lang/pt-BR.js</tspan>
+<tspan x="10" y="778"> 47.  2017-04-03 17:11:07 +0000     3101 byte  dist/lang/ru.js</tspan>
+<tspan x="10" y="794"> 48.  2017-04-03 17:11:07 +0000     1336 byte  dist/lang/sr.js</tspan>
+<tspan x="10" y="810"> 49.  2017-04-03 17:11:07 +0000     1396 byte  dist/lang/sv.js</tspan>
+<tspan x="10" y="826"> 50.  2017-04-03 17:11:07 +0000     1740 byte  dist/lang/tr.js</tspan>
+<tspan x="10" y="842"> 51.  2017-04-03 17:11:07 +0000     3147 byte  dist/lang/uk.js</tspan>
+<tspan x="10" y="858"> 52.  2017-04-03 17:11:07 +0000     1439 byte  dist/lang/vi.js</tspan>
+<tspan x="10" y="874"> 53.  2017-04-03 17:11:07 +0000     1363 byte  dist/lang/zh-CN.js</tspan>
+<tspan x="10" y="890"> 54.  2017-04-03 17:11:07 +0000     2026 byte  dist/lang/zh-TW.js</tspan>
+<tspan x="10" y="906"> 55.  2017-04-03 17:11:07 +0000  2601998 byte  dist/video-js-5.19.0.zip</tspan>
+<tspan x="10" y="922"> 56.  2017-04-03 17:11:07 +0000    46510 byte  dist/video-js.css</tspan>
+<tspan x="10" y="938"> 57.  2017-04-03 17:11:07 +0000    39368 byte  dist/video-js.min.css</tspan>
+<tspan x="10" y="954"> 58.  2017-04-03 17:11:07 +0000    17117 byte  dist/video-js.swf</tspan>
+<tspan x="10" y="970"> 59.  2017-04-03 17:11:07 +0000   866046 byte  dist/video.js</tspan>
+<tspan x="10" y="986"> 60.  2017-04-03 17:11:07 +0000   248308 byte  dist/video.min.js</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-03 17:11:07 +0000     3982 byte  es5/big-play-button.js</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-03 17:11:07 +0000     6852 byte  es5/button.js</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-03 17:11:07 +0000    11061 byte  es5/clickable-component.js</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-03 17:11:07 +0000     4234 byte  es5/close-button.js</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-03 17:11:07 +0000    57073 byte  es5/component.js</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-03 17:11:07 +0000     4823 byte  es5/control-bar/audio-track-controls/audio-track-\</tspan>
 <tspan x="10" y="1098">button.js</tspan>
-<tspan x="10" y="1114"> 67.  2017-04-03 17:09:42 +0000     5005 byte  es5/control-bar/audio-track-controls/audio-track-\</tspan>
+<tspan x="10" y="1114"> 67.  2017-04-03 17:11:07 +0000     5005 byte  es5/control-bar/audio-track-controls/audio-track-\</tspan>
 <tspan x="10" y="1130">menu-item.js</tspan>
-<tspan x="10" y="1146"> 68.  2017-04-03 17:09:42 +0000     4337 byte  es5/control-bar/control-bar.js</tspan>
-<tspan x="10" y="1162"> 69.  2017-04-03 17:09:42 +0000     4668 byte  es5/control-bar/fullscreen-toggle.js</tspan>
-<tspan x="10" y="1178"> 70.  2017-04-03 17:09:42 +0000     4501 byte  es5/control-bar/live-display.js</tspan>
-<tspan x="10" y="1194"> 71.  2017-04-03 17:09:42 +0000     5909 byte  es5/control-bar/mute-toggle.js</tspan>
-<tspan x="10" y="1210"> 72.  2017-04-03 17:09:42 +0000     4926 byte  es5/control-bar/play-toggle.js</tspan>
-<tspan x="10" y="1226"> 73.  2017-04-03 17:09:42 +0000     8054 byte  es5/control-bar/playback-rate-menu/playback-rate-\</tspan>
+<tspan x="10" y="1146"> 68.  2017-04-03 17:11:07 +0000     4337 byte  es5/control-bar/control-bar.js</tspan>
+<tspan x="10" y="1162"> 69.  2017-04-03 17:11:07 +0000     4668 byte  es5/control-bar/fullscreen-toggle.js</tspan>
+<tspan x="10" y="1178"> 70.  2017-04-03 17:11:07 +0000     4501 byte  es5/control-bar/live-display.js</tspan>
+<tspan x="10" y="1194"> 71.  2017-04-03 17:11:07 +0000     5909 byte  es5/control-bar/mute-toggle.js</tspan>
+<tspan x="10" y="1210"> 72.  2017-04-03 17:11:07 +0000     4926 byte  es5/control-bar/play-toggle.js</tspan>
+<tspan x="10" y="1226"> 73.  2017-04-03 17:11:07 +0000     8054 byte  es5/control-bar/playback-rate-menu/playback-rate-\</tspan>
 <tspan x="10" y="1242">menu-button.js</tspan>
-<tspan x="10" y="1258"> 74.  2017-04-03 17:09:42 +0000     4533 byte  es5/control-bar/playback-rate-menu/playback-rate-\</tspan>
+<tspan x="10" y="1258"> 74.  2017-04-03 17:11:07 +0000     4533 byte  es5/control-bar/playback-rate-menu/playback-rate-\</tspan>
 <tspan x="10" y="1274">menu-item.js</tspan>
-<tspan x="10" y="1290"> 75.  2017-04-03 17:09:42 +0000     5274 byte  es5/control-bar/progress-control/load-progress-ba\</tspan>
+<tspan x="10" y="1290"> 75.  2017-04-03 17:11:07 +0000     5274 byte  es5/control-bar/progress-control/load-progress-ba\</tspan>
 <tspan x="10" y="1306">r.js</tspan>
-<tspan x="10" y="1322"> 76.  2017-04-03 17:09:42 +0000     7840 byte  es5/control-bar/progress-control/mouse-time-displ\</tspan>
+<tspan x="10" y="1322"> 76.  2017-04-03 17:11:07 +0000     7840 byte  es5/control-bar/progress-control/mouse-time-displ\</tspan>
 <tspan x="10" y="1338">ay.js</tspan>
-<tspan x="10" y="1354"> 77.  2017-04-03 17:09:42 +0000     4882 byte  es5/control-bar/progress-control/play-progress-ba\</tspan>
+<tspan x="10" y="1354"> 77.  2017-04-03 17:11:07 +0000     4882 byte  es5/control-bar/progress-control/play-progress-ba\</tspan>
 <tspan x="10" y="1370">r.js</tspan>
-<tspan x="10" y="1386"> 78.  2017-04-03 17:09:42 +0000     3242 byte  es5/control-bar/progress-control/progress-control\</tspan>
+<tspan x="10" y="1386"> 78.  2017-04-03 17:11:07 +0000     3242 byte  es5/control-bar/progress-control/progress-control\</tspan>
 <tspan x="10" y="1402">.js</tspan>
-<tspan x="10" y="1418"> 79.  2017-04-03 17:09:42 +0000     8856 byte  es5/control-bar/progress-control/seek-bar.js</tspan>
-<tspan x="10" y="1434"> 80.  2017-04-03 17:09:42 +0000     4738 byte  es5/control-bar/progress-control/tooltip-progress\</tspan>
+<tspan x="10" y="1418"> 79.  2017-04-03 17:11:07 +0000     8856 byte  es5/control-bar/progress-control/seek-bar.js</tspan>
+<tspan x="10" y="1434"> 80.  2017-04-03 17:11:07 +0000     4738 byte  es5/control-bar/progress-control/tooltip-progress\</tspan>
 <tspan x="10" y="1450">-bar.js</tspan>
-<tspan x="10" y="1466"> 81.  2017-04-03 17:09:42 +0000     3576 byte  es5/control-bar/spacer-controls/custom-control-sp\</tspan>
+<tspan x="10" y="1466"> 81.  2017-04-03 17:11:07 +0000     3576 byte  es5/control-bar/spacer-controls/custom-control-sp\</tspan>
 <tspan x="10" y="1482">acer.js</tspan>
-<tspan x="10" y="1498"> 82.  2017-04-03 17:09:42 +0000     3258 byte  es5/control-bar/spacer-controls/spacer.js</tspan>
-<tspan x="10" y="1514"> 83.  2017-04-03 17:09:42 +0000     4167 byte  es5/control-bar/text-track-controls/caption-setti\</tspan>
+<tspan x="10" y="1498"> 82.  2017-04-03 17:11:07 +0000     3258 byte  es5/control-bar/spacer-controls/spacer.js</tspan>
+<tspan x="10" y="1514"> 83.  2017-04-03 17:11:07 +0000     4167 byte  es5/control-bar/text-track-controls/caption-setti\</tspan>
 <tspan x="10" y="1530">ngs-menu-item.js</tspan>
-<tspan x="10" y="1546"> 84.  2017-04-03 17:09:42 +0000     4610 byte  es5/control-bar/text-track-controls/captions-butt\</tspan>
+<tspan x="10" y="1546"> 84.  2017-04-03 17:11:07 +0000     4610 byte  es5/control-bar/text-track-controls/captions-butt\</tspan>
 <tspan x="10" y="1562">on.js</tspan>
-<tspan x="10" y="1578"> 85.  2017-04-03 17:09:42 +0000     7960 byte  es5/control-bar/text-track-controls/chapters-butt\</tspan>
+<tspan x="10" y="1578"> 85.  2017-04-03 17:11:07 +0000     7960 byte  es5/control-bar/text-track-controls/chapters-butt\</tspan>
 <tspan x="10" y="1594">on.js</tspan>
-<tspan x="10" y="1610"> 86.  2017-04-03 17:09:42 +0000     4912 byte  es5/control-bar/text-track-controls/chapters-trac\</tspan>
+<tspan x="10" y="1610"> 86.  2017-04-03 17:11:07 +0000     4912 byte  es5/control-bar/text-track-controls/chapters-trac\</tspan>
 <tspan x="10" y="1626">k-menu-item.js</tspan>
-<tspan x="10" y="1642"> 87.  2017-04-03 17:09:42 +0000     5418 byte  es5/control-bar/text-track-controls/descriptions-\</tspan>
+<tspan x="10" y="1642"> 87.  2017-04-03 17:11:07 +0000     5418 byte  es5/control-bar/text-track-controls/descriptions-\</tspan>
 <tspan x="10" y="1658">button.js</tspan>
-<tspan x="10" y="1674"> 88.  2017-04-03 17:09:42 +0000     4054 byte  es5/control-bar/text-track-controls/off-text-trac\</tspan>
+<tspan x="10" y="1674"> 88.  2017-04-03 17:11:07 +0000     4054 byte  es5/control-bar/text-track-controls/off-text-trac\</tspan>
 <tspan x="10" y="1690">k-menu-item.js</tspan>
-<tspan x="10" y="1706"> 89.  2017-04-03 17:09:42 +0000     3952 byte  es5/control-bar/text-track-controls/subtitles-but\</tspan>
+<tspan x="10" y="1706"> 89.  2017-04-03 17:11:07 +0000     3952 byte  es5/control-bar/text-track-controls/subtitles-but\</tspan>
 <tspan x="10" y="1722">ton.js</tspan>
-<tspan x="10" y="1738"> 90.  2017-04-03 17:09:42 +0000     4569 byte  es5/control-bar/text-track-controls/text-track-bu\</tspan>
+<tspan x="10" y="1738"> 90.  2017-04-03 17:11:07 +0000     4569 byte  es5/control-bar/text-track-controls/text-track-bu\</tspan>
 <tspan x="10" y="1754">tton.js</tspan>
-<tspan x="10" y="1770"> 91.  2017-04-03 17:09:42 +0000     6707 byte  es5/control-bar/text-track-controls/text-track-me\</tspan>
+<tspan x="10" y="1770"> 91.  2017-04-03 17:11:07 +0000     6707 byte  es5/control-bar/text-track-controls/text-track-me\</tspan>
 <tspan x="10" y="1786">nu-item.js</tspan>
-<tspan x="10" y="1802"> 92.  2017-04-03 17:09:42 +0000     5027 byte  es5/control-bar/time-controls/current-time-displa\</tspan>
+<tspan x="10" y="1802"> 92.  2017-04-03 17:11:07 +0000     5027 byte  es5/control-bar/time-controls/current-time-displa\</tspan>
 <tspan x="10" y="1818">y.js</tspan>
-<tspan x="10" y="1834"> 93.  2017-04-03 17:09:42 +0000     5353 byte  es5/control-bar/time-controls/duration-display.js</tspan>
-<tspan x="10" y="1850"> 94.  2017-04-03 17:09:42 +0000     5342 byte  es5/control-bar/time-controls/remaining-time-disp\</tspan>
+<tspan x="10" y="1834"> 93.  2017-04-03 17:11:07 +0000     5353 byte  es5/control-bar/time-controls/duration-display.js</tspan>
+<tspan x="10" y="1850"> 94.  2017-04-03 17:11:07 +0000     5342 byte  es5/control-bar/time-controls/remaining-time-disp\</tspan>
 <tspan x="10" y="1866">lay.js</tspan>
-<tspan x="10" y="1882"> 95.  2017-04-03 17:09:42 +0000     3045 byte  es5/control-bar/time-controls/time-divider.js</tspan>
-<tspan x="10" y="1898"> 96.  2017-04-03 17:09:42 +0000     3931 byte  es5/control-bar/track-button.js</tspan>
-<tspan x="10" y="1914"> 97.  2017-04-03 17:09:42 +0000     5989 byte  es5/control-bar/volume-control/volume-bar.js</tspan>
-<tspan x="10" y="1930"> 98.  2017-04-03 17:09:42 +0000     3854 byte  es5/control-bar/volume-control/volume-control.js</tspan>
-<tspan x="10" y="1946"> 99.  2017-04-03 17:09:42 +0000     2958 byte  es5/control-bar/volume-control/volume-level.js</tspan>
-<tspan x="10" y="1962">100.  2017-04-03 17:09:42 +0000     8634 byte  es5/control-bar/volume-menu-button.js</tspan>
-<tspan x="10" y="1978">101.  2017-04-03 17:09:42 +0000     4174 byte  es5/error-display.js</tspan>
-<tspan x="10" y="1994">102.  2017-04-03 17:09:42 +0000     5206 byte  es5/event-target.js</tspan>
-<tspan x="10" y="2010">103.  2017-04-03 17:09:42 +0000     2898 byte  es5/extend.js</tspan>
-<tspan x="10" y="2026">104.  2017-04-03 17:09:42 +0000     1893 byte  es5/fullscreen-api.js</tspan>
-<tspan x="10" y="2042">105.  2017-04-03 17:09:42 +0000     2991 byte  es5/loading-spinner.js</tspan>
-<tspan x="10" y="2058">106.  2017-04-03 17:09:42 +0000     5810 byte  es5/media-error.js</tspan>
-<tspan x="10" y="2074">107.  2017-04-03 17:09:42 +0000    10833 byte  es5/menu/menu-button.js</tspan>
-<tspan x="10" y="2090">108.  2017-04-03 17:09:42 +0000     5583 byte  es5/menu/menu-item.js</tspan>
-<tspan x="10" y="2106">109.  2017-04-03 17:09:42 +0000     6640 byte  es5/menu/menu.js</tspan>
-<tspan x="10" y="2122">110.  2017-04-03 17:09:42 +0000    15190 byte  es5/modal-dialog.js</tspan>
-<tspan x="10" y="2138">111.  2017-04-03 17:09:42 +0000   106256 byte  es5/player.js</tspan>
-<tspan x="10" y="2154">112.  2017-04-03 17:09:42 +0000      692 byte  es5/plugins.js</tspan>
-<tspan x="10" y="2170">113.  2017-04-03 17:09:42 +0000     4692 byte  es5/popup/popup-button.js</tspan>
-<tspan x="10" y="2186">114.  2017-04-03 17:09:42 +0000     4209 byte  es5/popup/popup.js</tspan>
-<tspan x="10" y="2202">115.  2017-04-03 17:09:42 +0000     6571 byte  es5/poster-image.js</tspan>
-<tspan x="10" y="2218">116.  2017-04-03 17:09:42 +0000     4248 byte  es5/setup.js</tspan>
-<tspan x="10" y="2234">117.  2017-04-03 17:09:42 +0000    11695 byte  es5/slider/slider.js</tspan>
-<tspan x="10" y="2250">118.  2017-04-03 17:09:42 +0000     4788 byte  es5/tech/flash-rtmp.js</tspan>
-<tspan x="10" y="2266">119.  2017-04-03 17:09:42 +0000    35151 byte  es5/tech/flash.js</tspan>
-<tspan x="10" y="2282">120.  2017-04-03 17:09:42 +0000    55347 byte  es5/tech/html5.js</tspan>
-<tspan x="10" y="2298">121.  2017-04-03 17:09:42 +0000     4384 byte  es5/tech/loader.js</tspan>
-<tspan x="10" y="2314">122.  2017-04-03 17:09:42 +0000    40173 byte  es5/tech/tech.js</tspan>
-<tspan x="10" y="2330">123.  2017-04-03 17:09:42 +0000     6521 byte  es5/tracks/audio-track-list.js</tspan>
-<tspan x="10" y="2346">124.  2017-04-03 17:09:42 +0000     4875 byte  es5/tracks/audio-track.js</tspan>
-<tspan x="10" y="2362">125.  2017-04-03 17:09:42 +0000     4316 byte  es5/tracks/html-track-element-list.js</tspan>
-<tspan x="10" y="2378">126.  2017-04-03 17:09:42 +0000     6302 byte  es5/tracks/html-track-element.js</tspan>
-<tspan x="10" y="2394">127.  2017-04-03 17:09:42 +0000     4028 byte  es5/tracks/text-track-cue-list.js</tspan>
-<tspan x="10" y="2410">128.  2017-04-03 17:09:42 +0000    12476 byte  es5/tracks/text-track-display.js</tspan>
-<tspan x="10" y="2426">129.  2017-04-03 17:09:42 +0000     2853 byte  es5/tracks/text-track-list-converter.js</tspan>
-<tspan x="10" y="2442">130.  2017-04-03 17:09:42 +0000     4674 byte  es5/tracks/text-track-list.js</tspan>
-<tspan x="10" y="2458">131.  2017-04-03 17:09:42 +0000    17899 byte  es5/tracks/text-track-settings.js</tspan>
-<tspan x="10" y="2474">132.  2017-04-03 17:09:42 +0000    13669 byte  es5/tracks/text-track.js</tspan>
-<tspan x="10" y="2490">133.  2017-04-03 17:09:42 +0000     1457 byte  es5/tracks/track-enums.js</tspan>
-<tspan x="10" y="2506">134.  2017-04-03 17:09:42 +0000     7238 byte  es5/tracks/track-list.js</tspan>
-<tspan x="10" y="2522">135.  2017-04-03 17:09:42 +0000     5401 byte  es5/tracks/track.js</tspan>
-<tspan x="10" y="2538">136.  2017-04-03 17:09:42 +0000     6695 byte  es5/tracks/video-track-list.js</tspan>
-<tspan x="10" y="2554">137.  2017-04-03 17:09:42 +0000     4650 byte  es5/tracks/video-track.js</tspan>
-<tspan x="10" y="2570">138.  2017-04-03 17:09:42 +0000     3918 byte  es5/utils/browser.js</tspan>
-<tspan x="10" y="2586">139.  2017-04-03 17:09:42 +0000     1094 byte  es5/utils/buffer.js</tspan>
-<tspan x="10" y="2602">140.  2017-04-03 17:09:42 +0000     1103 byte  es5/utils/computed-style.js</tspan>
-<tspan x="10" y="2618">141.  2017-04-03 17:09:42 +0000    24276 byte  es5/utils/dom.js</tspan>
-<tspan x="10" y="2634">142.  2017-04-03 17:09:42 +0000    13278 byte  es5/utils/events.js</tspan>
-<tspan x="10" y="2650">143.  2017-04-03 17:09:42 +0000     2057 byte  es5/utils/fn.js</tspan>
-<tspan x="10" y="2666">144.  2017-04-03 17:09:42 +0000     1475 byte  es5/utils/format-time.js</tspan>
-<tspan x="10" y="2682">145.  2017-04-03 17:09:42 +0000      375 byte  es5/utils/guid.js</tspan>
-<tspan x="10" y="2698">146.  2017-04-03 17:09:42 +0000     3657 byte  es5/utils/log.js</tspan>
-<tspan x="10" y="2714">147.  2017-04-03 17:09:42 +0000     1036 byte  es5/utils/merge-options.js</tspan>
-<tspan x="10" y="2730">148.  2017-04-03 17:09:42 +0000     3825 byte  es5/utils/obj.js</tspan>
-<tspan x="10" y="2746">149.  2017-04-03 17:09:42 +0000     1162 byte  es5/utils/stylesheet.js</tspan>
-<tspan x="10" y="2762">150.  2017-04-03 17:09:42 +0000     4041 byte  es5/utils/time-ranges.js</tspan>
-<tspan x="10" y="2778">151.  2017-04-03 17:09:42 +0000      480 byte  es5/utils/to-title-case.js</tspan>
-<tspan x="10" y="2794">152.  2017-04-03 17:09:42 +0000     4899 byte  es5/utils/url.js</tspan>
-<tspan x="10" y="2810">153.  2017-04-03 17:09:42 +0000    19866 byte  es5/video.js</tspan>
-<tspan x="10" y="2826">154.  2017-04-03 17:09:42 +0000     5859 byte  package.json</tspan>
-<tspan x="10" y="2842">155.  2017-04-03 17:09:42 +0000       94 byte  src/css/_print.scss</tspan>
-<tspan x="10" y="2858">156.  2017-04-03 17:09:42 +0000      627 byte  src/css/_private-variables.scss</tspan>
-<tspan x="10" y="2874">157.  2017-04-03 17:09:42 +0000     2531 byte  src/css/_utilities.scss</tspan>
-<tspan x="10" y="2890">158.  2017-04-03 17:09:42 +0000       34 byte  src/css/_variables.scss</tspan>
-<tspan x="10" y="2906">159.  2017-04-03 17:09:42 +0000     1530 byte  src/css/components/_adaptive.scss</tspan>
-<tspan x="10" y="2922">160.  2017-04-03 17:09:42 +0000       59 byte  src/css/components/_audio.scss</tspan>
-<tspan x="10" y="2938">161.  2017-04-03 17:09:42 +0000     1892 byte  src/css/components/_big-play.scss</tspan>
-<tspan x="10" y="2954">162.  2017-04-03 17:09:42 +0000      352 byte  src/css/components/_button.scss</tspan>
-<tspan x="10" y="2970">163.  2017-04-03 17:09:42 +0000     1963 byte  src/css/components/_captions-settings.scss</tspan>
-<tspan x="10" y="2986">164.  2017-04-03 17:09:42 +0000       65 byte  src/css/components/_captions.scss</tspan>
-<tspan x="10" y="3002">165.  2017-04-03 17:09:42 +0000      119 byte  src/css/components/_chapters.scss</tspan>
-<tspan x="10" y="3018">166.  2017-04-03 17:09:42 +0000      168 byte  src/css/components/_close-button.scss</tspan>
-<tspan x="10" y="3034">167.  2017-04-03 17:09:42 +0000     1196 byte  src/css/components/_control-bar.scss</tspan>
-<tspan x="10" y="3050">168.  2017-04-03 17:09:42 +0000       58 byte  src/css/components/_control-spacer.scss</tspan>
-<tspan x="10" y="3066">169.  2017-04-03 17:09:42 +0000      828 byte  src/css/components/_control.scss</tspan>
-<tspan x="10" y="3082">170.  2017-04-03 17:09:42 +0000       78 byte  src/css/components/_descriptions.scss</tspan>
-<tspan x="10" y="3098">171.  2017-04-03 17:09:42 +0000      553 byte  src/css/components/_error.scss</tspan>
-<tspan x="10" y="3114">172.  2017-04-03 17:09:42 +0000      268 byte  src/css/components/_fullscreen.scss</tspan>
-<tspan x="10" y="3130">173.  2017-04-03 17:09:42 +0000     3655 byte  src/css/components/_layout.scss</tspan>
-<tspan x="10" y="3146">174.  2017-04-03 17:09:42 +0000      362 byte  src/css/components/_live.scss</tspan>
-<tspan x="10" y="3162">175.  2017-04-03 17:09:42 +0000     2493 byte  src/css/components/_loading.scss</tspan>
-<tspan x="10" y="3178">176.  2017-04-03 17:09:42 +0000      302 byte  src/css/components/_modal-dialog.scss</tspan>
-<tspan x="10" y="3194">177.  2017-04-03 17:09:42 +0000      171 byte  src/css/components/_play-pause.scss</tspan>
-<tspan x="10" y="3210">178.  2017-04-03 17:09:42 +0000      311 byte  src/css/components/_playback-rate.scss</tspan>
-<tspan x="10" y="3226">179.  2017-04-03 17:09:42 +0000      826 byte  src/css/components/_poster.scss</tspan>
-<tspan x="10" y="3242">180.  2017-04-03 17:09:42 +0000     4646 byte  src/css/components/_progress.scss</tspan>
-<tspan x="10" y="3258">181.  2017-04-03 17:09:42 +0000      385 byte  src/css/components/_slider.scss</tspan>
-<tspan x="10" y="3274">182.  2017-04-03 17:09:42 +0000       67 byte  src/css/components/_subtitles.scss</tspan>
-<tspan x="10" y="3290">183.  2017-04-03 17:09:42 +0000      943 byte  src/css/components/_text-track.scss</tspan>
-<tspan x="10" y="3306">184.  2017-04-03 17:09:42 +0000      705 byte  src/css/components/_time.scss</tspan>
-<tspan x="10" y="3322">185.  2017-04-03 17:09:42 +0000     3301 byte  src/css/components/_volume.scss</tspan>
-<tspan x="10" y="3338">186.  2017-04-03 17:09:42 +0000     1605 byte  src/css/components/menu/_menu-inline.scss</tspan>
-<tspan x="10" y="3354">187.  2017-04-03 17:09:42 +0000      737 byte  src/css/components/menu/_menu-popup.scss</tspan>
-<tspan x="10" y="3370">188.  2017-04-03 17:09:42 +0000     1278 byte  src/css/components/menu/_menu.scss</tspan>
-<tspan x="10" y="3386">189.  2017-04-03 17:09:42 +0000      218 byte  src/css/ie8.css</tspan>
-<tspan x="10" y="3402">190.  2017-04-03 17:09:42 +0000     3039 byte  src/css/utilities/_linear-gradient.scss</tspan>
-<tspan x="10" y="3418">191.  2017-04-03 17:09:42 +0000     1106 byte  src/css/video-js.scss</tspan>
-<tspan x="10" y="3434">192.  2017-04-03 17:09:42 +0000       69 byte  src/css/vjs-cdn.scss</tspan>
-<tspan x="10" y="3450">193.  2017-04-03 17:09:42 +0000       20 byte  src/css/vjs.scss</tspan>
+<tspan x="10" y="1882"> 95.  2017-04-03 17:11:07 +0000     3045 byte  es5/control-bar/time-controls/time-divider.js</tspan>
+<tspan x="10" y="1898"> 96.  2017-04-03 17:11:07 +0000     3931 byte  es5/control-bar/track-button.js</tspan>
+<tspan x="10" y="1914"> 97.  2017-04-03 17:11:07 +0000     5989 byte  es5/control-bar/volume-control/volume-bar.js</tspan>
+<tspan x="10" y="1930"> 98.  2017-04-03 17:11:07 +0000     3854 byte  es5/control-bar/volume-control/volume-control.js</tspan>
+<tspan x="10" y="1946"> 99.  2017-04-03 17:11:07 +0000     2958 byte  es5/control-bar/volume-control/volume-level.js</tspan>
+<tspan x="10" y="1962">100.  2017-04-03 17:11:07 +0000     8634 byte  es5/control-bar/volume-menu-button.js</tspan>
+<tspan x="10" y="1978">101.  2017-04-03 17:11:07 +0000     4174 byte  es5/error-display.js</tspan>
+<tspan x="10" y="1994">102.  2017-04-03 17:11:07 +0000     5206 byte  es5/event-target.js</tspan>
+<tspan x="10" y="2010">103.  2017-04-03 17:11:07 +0000     2898 byte  es5/extend.js</tspan>
+<tspan x="10" y="2026">104.  2017-04-03 17:11:07 +0000     1893 byte  es5/fullscreen-api.js</tspan>
+<tspan x="10" y="2042">105.  2017-04-03 17:11:07 +0000     2991 byte  es5/loading-spinner.js</tspan>
+<tspan x="10" y="2058">106.  2017-04-03 17:11:07 +0000     5810 byte  es5/media-error.js</tspan>
+<tspan x="10" y="2074">107.  2017-04-03 17:11:07 +0000    10833 byte  es5/menu/menu-button.js</tspan>
+<tspan x="10" y="2090">108.  2017-04-03 17:11:07 +0000     5583 byte  es5/menu/menu-item.js</tspan>
+<tspan x="10" y="2106">109.  2017-04-03 17:11:07 +0000     6640 byte  es5/menu/menu.js</tspan>
+<tspan x="10" y="2122">110.  2017-04-03 17:11:07 +0000    15190 byte  es5/modal-dialog.js</tspan>
+<tspan x="10" y="2138">111.  2017-04-03 17:11:07 +0000   106256 byte  es5/player.js</tspan>
+<tspan x="10" y="2154">112.  2017-04-03 17:11:07 +0000      692 byte  es5/plugins.js</tspan>
+<tspan x="10" y="2170">113.  2017-04-03 17:11:07 +0000     4692 byte  es5/popup/popup-button.js</tspan>
+<tspan x="10" y="2186">114.  2017-04-03 17:11:07 +0000     4209 byte  es5/popup/popup.js</tspan>
+<tspan x="10" y="2202">115.  2017-04-03 17:11:07 +0000     6571 byte  es5/poster-image.js</tspan>
+<tspan x="10" y="2218">116.  2017-04-03 17:11:07 +0000     4248 byte  es5/setup.js</tspan>
+<tspan x="10" y="2234">117.  2017-04-03 17:11:07 +0000    11695 byte  es5/slider/slider.js</tspan>
+<tspan x="10" y="2250">118.  2017-04-03 17:11:07 +0000     4788 byte  es5/tech/flash-rtmp.js</tspan>
+<tspan x="10" y="2266">119.  2017-04-03 17:11:07 +0000    35151 byte  es5/tech/flash.js</tspan>
+<tspan x="10" y="2282">120.  2017-04-03 17:11:07 +0000    55347 byte  es5/tech/html5.js</tspan>
+<tspan x="10" y="2298">121.  2017-04-03 17:11:07 +0000     4384 byte  es5/tech/loader.js</tspan>
+<tspan x="10" y="2314">122.  2017-04-03 17:11:07 +0000    40173 byte  es5/tech/tech.js</tspan>
+<tspan x="10" y="2330">123.  2017-04-03 17:11:07 +0000     6521 byte  es5/tracks/audio-track-list.js</tspan>
+<tspan x="10" y="2346">124.  2017-04-03 17:11:07 +0000     4875 byte  es5/tracks/audio-track.js</tspan>
+<tspan x="10" y="2362">125.  2017-04-03 17:11:07 +0000     4316 byte  es5/tracks/html-track-element-list.js</tspan>
+<tspan x="10" y="2378">126.  2017-04-03 17:11:07 +0000     6302 byte  es5/tracks/html-track-element.js</tspan>
+<tspan x="10" y="2394">127.  2017-04-03 17:11:07 +0000     4028 byte  es5/tracks/text-track-cue-list.js</tspan>
+<tspan x="10" y="2410">128.  2017-04-03 17:11:07 +0000    12476 byte  es5/tracks/text-track-display.js</tspan>
+<tspan x="10" y="2426">129.  2017-04-03 17:11:07 +0000     2853 byte  es5/tracks/text-track-list-converter.js</tspan>
+<tspan x="10" y="2442">130.  2017-04-03 17:11:07 +0000     4674 byte  es5/tracks/text-track-list.js</tspan>
+<tspan x="10" y="2458">131.  2017-04-03 17:11:07 +0000    17899 byte  es5/tracks/text-track-settings.js</tspan>
+<tspan x="10" y="2474">132.  2017-04-03 17:11:07 +0000    13669 byte  es5/tracks/text-track.js</tspan>
+<tspan x="10" y="2490">133.  2017-04-03 17:11:07 +0000     1457 byte  es5/tracks/track-enums.js</tspan>
+<tspan x="10" y="2506">134.  2017-04-03 17:11:07 +0000     7238 byte  es5/tracks/track-list.js</tspan>
+<tspan x="10" y="2522">135.  2017-04-03 17:11:07 +0000     5401 byte  es5/tracks/track.js</tspan>
+<tspan x="10" y="2538">136.  2017-04-03 17:11:07 +0000     6695 byte  es5/tracks/video-track-list.js</tspan>
+<tspan x="10" y="2554">137.  2017-04-03 17:11:07 +0000     4650 byte  es5/tracks/video-track.js</tspan>
+<tspan x="10" y="2570">138.  2017-04-03 17:11:07 +0000     3918 byte  es5/utils/browser.js</tspan>
+<tspan x="10" y="2586">139.  2017-04-03 17:11:07 +0000     1094 byte  es5/utils/buffer.js</tspan>
+<tspan x="10" y="2602">140.  2017-04-03 17:11:07 +0000     1103 byte  es5/utils/computed-style.js</tspan>
+<tspan x="10" y="2618">141.  2017-04-03 17:11:07 +0000    24276 byte  es5/utils/dom.js</tspan>
+<tspan x="10" y="2634">142.  2017-04-03 17:11:07 +0000    13278 byte  es5/utils/events.js</tspan>
+<tspan x="10" y="2650">143.  2017-04-03 17:11:07 +0000     2057 byte  es5/utils/fn.js</tspan>
+<tspan x="10" y="2666">144.  2017-04-03 17:11:07 +0000     1475 byte  es5/utils/format-time.js</tspan>
+<tspan x="10" y="2682">145.  2017-04-03 17:11:07 +0000      375 byte  es5/utils/guid.js</tspan>
+<tspan x="10" y="2698">146.  2017-04-03 17:11:07 +0000     3657 byte  es5/utils/log.js</tspan>
+<tspan x="10" y="2714">147.  2017-04-03 17:11:07 +0000     1036 byte  es5/utils/merge-options.js</tspan>
+<tspan x="10" y="2730">148.  2017-04-03 17:11:07 +0000     3825 byte  es5/utils/obj.js</tspan>
+<tspan x="10" y="2746">149.  2017-04-03 17:11:07 +0000     1162 byte  es5/utils/stylesheet.js</tspan>
+<tspan x="10" y="2762">150.  2017-04-03 17:11:07 +0000     4041 byte  es5/utils/time-ranges.js</tspan>
+<tspan x="10" y="2778">151.  2017-04-03 17:11:07 +0000      480 byte  es5/utils/to-title-case.js</tspan>
+<tspan x="10" y="2794">152.  2017-04-03 17:11:07 +0000     4899 byte  es5/utils/url.js</tspan>
+<tspan x="10" y="2810">153.  2017-04-03 17:11:07 +0000    19866 byte  es5/video.js</tspan>
+<tspan x="10" y="2826">154.  2017-04-03 17:11:07 +0000     5859 byte  package.json</tspan>
+<tspan x="10" y="2842">155.  2017-04-03 17:11:07 +0000       94 byte  src/css/_print.scss</tspan>
+<tspan x="10" y="2858">156.  2017-04-03 17:11:07 +0000      627 byte  src/css/_private-variables.scss</tspan>
+<tspan x="10" y="2874">157.  2017-04-03 17:11:07 +0000     2531 byte  src/css/_utilities.scss</tspan>
+<tspan x="10" y="2890">158.  2017-04-03 17:11:07 +0000       34 byte  src/css/_variables.scss</tspan>
+<tspan x="10" y="2906">159.  2017-04-03 17:11:07 +0000     1530 byte  src/css/components/_adaptive.scss</tspan>
+<tspan x="10" y="2922">160.  2017-04-03 17:11:07 +0000       59 byte  src/css/components/_audio.scss</tspan>
+<tspan x="10" y="2938">161.  2017-04-03 17:11:07 +0000     1892 byte  src/css/components/_big-play.scss</tspan>
+<tspan x="10" y="2954">162.  2017-04-03 17:11:07 +0000      352 byte  src/css/components/_button.scss</tspan>
+<tspan x="10" y="2970">163.  2017-04-03 17:11:07 +0000     1963 byte  src/css/components/_captions-settings.scss</tspan>
+<tspan x="10" y="2986">164.  2017-04-03 17:11:07 +0000       65 byte  src/css/components/_captions.scss</tspan>
+<tspan x="10" y="3002">165.  2017-04-03 17:11:07 +0000      119 byte  src/css/components/_chapters.scss</tspan>
+<tspan x="10" y="3018">166.  2017-04-03 17:11:07 +0000      168 byte  src/css/components/_close-button.scss</tspan>
+<tspan x="10" y="3034">167.  2017-04-03 17:11:07 +0000     1196 byte  src/css/components/_control-bar.scss</tspan>
+<tspan x="10" y="3050">168.  2017-04-03 17:11:07 +0000       58 byte  src/css/components/_control-spacer.scss</tspan>
+<tspan x="10" y="3066">169.  2017-04-03 17:11:07 +0000      828 byte  src/css/components/_control.scss</tspan>
+<tspan x="10" y="3082">170.  2017-04-03 17:11:07 +0000       78 byte  src/css/components/_descriptions.scss</tspan>
+<tspan x="10" y="3098">171.  2017-04-03 17:11:07 +0000      553 byte  src/css/components/_error.scss</tspan>
+<tspan x="10" y="3114">172.  2017-04-03 17:11:07 +0000      268 byte  src/css/components/_fullscreen.scss</tspan>
+<tspan x="10" y="3130">173.  2017-04-03 17:11:07 +0000     3655 byte  src/css/components/_layout.scss</tspan>
+<tspan x="10" y="3146">174.  2017-04-03 17:11:07 +0000      362 byte  src/css/components/_live.scss</tspan>
+<tspan x="10" y="3162">175.  2017-04-03 17:11:07 +0000     2493 byte  src/css/components/_loading.scss</tspan>
+<tspan x="10" y="3178">176.  2017-04-03 17:11:07 +0000      302 byte  src/css/components/_modal-dialog.scss</tspan>
+<tspan x="10" y="3194">177.  2017-04-03 17:11:07 +0000      171 byte  src/css/components/_play-pause.scss</tspan>
+<tspan x="10" y="3210">178.  2017-04-03 17:11:07 +0000      311 byte  src/css/components/_playback-rate.scss</tspan>
+<tspan x="10" y="3226">179.  2017-04-03 17:11:07 +0000      826 byte  src/css/components/_poster.scss</tspan>
+<tspan x="10" y="3242">180.  2017-04-03 17:11:07 +0000     4646 byte  src/css/components/_progress.scss</tspan>
+<tspan x="10" y="3258">181.  2017-04-03 17:11:07 +0000      385 byte  src/css/components/_slider.scss</tspan>
+<tspan x="10" y="3274">182.  2017-04-03 17:11:07 +0000       67 byte  src/css/components/_subtitles.scss</tspan>
+<tspan x="10" y="3290">183.  2017-04-03 17:11:07 +0000      943 byte  src/css/components/_text-track.scss</tspan>
+<tspan x="10" y="3306">184.  2017-04-03 17:11:07 +0000      705 byte  src/css/components/_time.scss</tspan>
+<tspan x="10" y="3322">185.  2017-04-03 17:11:07 +0000     3301 byte  src/css/components/_volume.scss</tspan>
+<tspan x="10" y="3338">186.  2017-04-03 17:11:07 +0000     1605 byte  src/css/components/menu/_menu-inline.scss</tspan>
+<tspan x="10" y="3354">187.  2017-04-03 17:11:07 +0000      737 byte  src/css/components/menu/_menu-popup.scss</tspan>
+<tspan x="10" y="3370">188.  2017-04-03 17:11:07 +0000     1278 byte  src/css/components/menu/_menu.scss</tspan>
+<tspan x="10" y="3386">189.  2017-04-03 17:11:07 +0000      218 byte  src/css/ie8.css</tspan>
+<tspan x="10" y="3402">190.  2017-04-03 17:11:07 +0000     3039 byte  src/css/utilities/_linear-gradient.scss</tspan>
+<tspan x="10" y="3418">191.  2017-04-03 17:11:07 +0000     1106 byte  src/css/video-js.scss</tspan>
+<tspan x="10" y="3434">192.  2017-04-03 17:11:07 +0000       69 byte  src/css/vjs-cdn.scss</tspan>
+<tspan x="10" y="3450">193.  2017-04-03 17:11:07 +0000       20 byte  src/css/vjs.scss</tspan>
 </text>
 </svg>
